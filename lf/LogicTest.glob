@@ -1,0 +1,919 @@
+DIGEST 93c85023cfc9a5af2e30ff3dd437892b
+FLF.LogicTest
+R70:75 Stdlib.Strings.String <> <> lib
+R101:105 LF.Logic <> <> lib
+ax 119:125 <> MISSING
+mod 142:146 <> Check
+R212:218 LF.LogicTest <> MISSING defax
+R212:218 LF.LogicTest <> MISSING defax
+R411:414 Corelib.Init.Datatypes <> Some constr
+R411:414 Corelib.Init.Datatypes <> Some constr
+R594:597 Corelib.Init.Datatypes <> None constr
+R594:597 Corelib.Init.Datatypes <> None constr
+R679:683 LF.LogicTest Check <> mod
+R710:714 LF.Logic <> <> lib
+R724:728 LF.LogicTest Check <> mod
+def 732:740 <> Unnamed_thm
+R737:740 Corelib.Init.Logic <> True ind
+R880:888 LF.Logic <> plus_is_O prfax
+R905:907 Corelib.Init.Datatypes <> nat ind
+binder 899:899 <> n:3
+binder 901:901 <> m:4
+R919:922 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R915:917 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R911:913 LF.Basics <> ::nat_scope:x_'+'_x not
+R910:910 LF.LogicTest <> n:3 var
+R914:914 LF.LogicTest <> m:4 var
+R928:931 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R924:926 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R923:923 LF.LogicTest <> n:3 var
+R933:935 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R932:932 LF.LogicTest <> m:4 var
+R880:888 LF.Logic <> plus_is_O prfax
+R905:907 Corelib.Init.Datatypes <> nat ind
+binder 899:899 <> n:5
+binder 901:901 <> m:6
+R919:922 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R915:917 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R911:913 LF.Basics <> ::nat_scope:x_'+'_x not
+R910:910 LF.LogicTest <> n:5 var
+R914:914 LF.LogicTest <> m:6 var
+R928:931 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R924:926 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R923:923 LF.LogicTest <> n:5 var
+R933:935 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R932:932 LF.LogicTest <> m:6 var
+R988:996 LF.Logic <> plus_is_O prfax
+def 999:1007 <> Unnamed_thm
+R1004:1007 Corelib.Init.Logic <> True ind
+R1158:1166 LF.Logic <> and_assoc prfax
+binder 1177:1177 <> P:7
+binder 1179:1179 <> Q:8
+binder 1181:1181 <> R:9
+R1202:1205 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1192:1195 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1191:1191 LF.LogicTest <> P:7 var
+R1197:1200 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1196:1196 LF.LogicTest <> Q:8 var
+R1201:1201 LF.LogicTest <> R:9 var
+R1206:1206 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1213:1217 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1208:1211 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1207:1207 LF.LogicTest <> P:7 var
+R1212:1212 LF.LogicTest <> Q:8 var
+R1218:1218 LF.LogicTest <> R:9 var
+R1158:1166 LF.Logic <> and_assoc prfax
+binder 1177:1177 <> P:10
+binder 1179:1179 <> Q:11
+binder 1181:1181 <> R:12
+R1202:1205 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1192:1195 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1191:1191 LF.LogicTest <> P:10 var
+R1197:1200 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1196:1196 LF.LogicTest <> Q:11 var
+R1201:1201 LF.LogicTest <> R:12 var
+R1206:1206 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1213:1217 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1208:1211 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R1207:1207 LF.LogicTest <> P:10 var
+R1212:1212 LF.LogicTest <> Q:11 var
+R1218:1218 LF.LogicTest <> R:12 var
+R1270:1278 LF.Logic <> and_assoc prfax
+def 1281:1289 <> Unnamed_thm
+R1286:1289 Corelib.Init.Logic <> True ind
+R1440:1448 LF.Logic <> mult_is_O prfax
+R1465:1467 Corelib.Init.Datatypes <> nat ind
+binder 1459:1459 <> n:13
+binder 1461:1461 <> m:14
+R1479:1482 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1475:1477 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1471:1473 LF.Basics <> ::nat_scope:x_'*'_x not
+R1470:1470 LF.LogicTest <> n:13 var
+R1474:1474 LF.LogicTest <> m:14 var
+R1488:1491 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1484:1486 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1483:1483 LF.LogicTest <> n:13 var
+R1493:1495 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1492:1492 LF.LogicTest <> m:14 var
+R1440:1448 LF.Logic <> mult_is_O prfax
+R1465:1467 Corelib.Init.Datatypes <> nat ind
+binder 1459:1459 <> n:15
+binder 1461:1461 <> m:16
+R1479:1482 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1475:1477 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1471:1473 LF.Basics <> ::nat_scope:x_'*'_x not
+R1470:1470 LF.LogicTest <> n:15 var
+R1474:1474 LF.LogicTest <> m:16 var
+R1488:1491 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1484:1486 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1483:1483 LF.LogicTest <> n:15 var
+R1493:1495 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1492:1492 LF.LogicTest <> m:16 var
+R1548:1556 LF.Logic <> mult_is_O prfax
+def 1559:1567 <> Unnamed_thm
+R1564:1567 Corelib.Init.Logic <> True ind
+R1718:1726 LF.Logic <> or_commut prfax
+binder 1737:1737 <> P:17
+binder 1739:1739 <> Q:18
+R1755:1758 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1750:1753 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1749:1749 LF.LogicTest <> P:17 var
+R1754:1754 LF.LogicTest <> Q:18 var
+R1760:1763 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1759:1759 LF.LogicTest <> Q:18 var
+R1764:1764 LF.LogicTest <> P:17 var
+R1718:1726 LF.Logic <> or_commut prfax
+binder 1737:1737 <> P:19
+binder 1739:1739 <> Q:20
+R1755:1758 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1750:1753 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1749:1749 LF.LogicTest <> P:19 var
+R1754:1754 LF.LogicTest <> Q:20 var
+R1760:1763 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R1759:1759 LF.LogicTest <> Q:20 var
+R1764:1764 LF.LogicTest <> P:19 var
+R1816:1824 LF.Logic <> or_commut prfax
+def 1827:1835 <> Unnamed_thm
+R1832:1835 Corelib.Init.Logic <> True ind
+R2048:2083 LF.Logic <> manual_grade_for_double_neg_informal def
+R2244:2257 LF.Logic <> contrapositive prfax
+binder 2268:2268 <> P:21
+binder 2270:2270 <> Q:22
+R2280:2280 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2287:2291 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2282:2285 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2281:2281 LF.LogicTest <> P:21 var
+R2286:2286 LF.LogicTest <> Q:22 var
+R2295:2298 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2292:2293 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2294:2294 LF.LogicTest <> Q:22 var
+R2299:2300 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2301:2301 LF.LogicTest <> P:21 var
+R2244:2257 LF.Logic <> contrapositive prfax
+binder 2268:2268 <> P:23
+binder 2270:2270 <> Q:24
+R2280:2280 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2287:2291 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2282:2285 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2281:2281 LF.LogicTest <> P:23 var
+R2286:2286 LF.LogicTest <> Q:24 var
+R2295:2298 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R2292:2293 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2294:2294 LF.LogicTest <> Q:24 var
+R2299:2300 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2301:2301 LF.LogicTest <> P:23 var
+R2353:2366 LF.Logic <> contrapositive prfax
+def 2369:2377 <> Unnamed_thm
+R2374:2377 Corelib.Init.Logic <> True ind
+R2556:2578 LF.Logic <> not_both_true_and_false prfax
+binder 2589:2589 <> P:25
+R2599:2601 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2610:2610 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2603:2606 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2602:2602 LF.LogicTest <> P:25 var
+R2607:2608 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2609:2609 LF.LogicTest <> P:25 var
+R2556:2578 LF.Logic <> not_both_true_and_false prfax
+binder 2589:2589 <> P:26
+R2599:2601 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2610:2610 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2603:2606 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R2602:2602 LF.LogicTest <> P:26 var
+R2607:2608 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R2609:2609 LF.LogicTest <> P:26 var
+R2662:2684 LF.Logic <> not_both_true_and_false prfax
+def 2687:2695 <> Unnamed_thm
+R2692:2695 Corelib.Init.Logic <> True ind
+R2902:2934 LF.Logic <> manual_grade_for_not_PNP_informal def
+R3099:3114 LF.Logic <> de_morgan_not_or prfax
+binder 3125:3125 <> P:27
+binder 3127:3127 <> Q:28
+R3147:3150 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3137:3139 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3146:3146 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3141:3144 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3140:3140 LF.LogicTest <> P:27 var
+R3145:3145 LF.LogicTest <> Q:28 var
+R3154:3157 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3151:3152 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3153:3153 LF.LogicTest <> P:27 var
+R3158:3159 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3160:3160 LF.LogicTest <> Q:28 var
+R3099:3114 LF.Logic <> de_morgan_not_or prfax
+binder 3125:3125 <> P:29
+binder 3127:3127 <> Q:30
+R3147:3150 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3137:3139 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3146:3146 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3141:3144 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3140:3140 LF.LogicTest <> P:29 var
+R3145:3145 LF.LogicTest <> Q:30 var
+R3154:3157 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3151:3152 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3153:3153 LF.LogicTest <> P:29 var
+R3158:3159 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3160:3160 LF.LogicTest <> Q:30 var
+R3212:3227 LF.Logic <> de_morgan_not_or prfax
+def 3230:3238 <> Unnamed_thm
+R3235:3238 Corelib.Init.Logic <> True ind
+R3417:3439 LF.Logic <> or_distributes_over_and prfax
+binder 3451:3451 <> P:31
+binder 3453:3453 <> Q:32
+binder 3455:3455 <> R:33
+R3476:3480 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3466:3469 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3465:3465 LF.LogicTest <> P:31 var
+R3471:3474 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3470:3470 LF.LogicTest <> Q:32 var
+R3475:3475 LF.LogicTest <> R:33 var
+R3481:3481 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3488:3493 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3500:3500 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3483:3486 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3482:3482 LF.LogicTest <> P:31 var
+R3487:3487 LF.LogicTest <> Q:32 var
+R3495:3498 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3494:3494 LF.LogicTest <> P:31 var
+R3499:3499 LF.LogicTest <> R:33 var
+R3417:3439 LF.Logic <> or_distributes_over_and prfax
+binder 3451:3451 <> P:34
+binder 3453:3453 <> Q:35
+binder 3455:3455 <> R:36
+R3476:3480 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R3466:3469 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3465:3465 LF.LogicTest <> P:34 var
+R3471:3474 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3470:3470 LF.LogicTest <> Q:35 var
+R3475:3475 LF.LogicTest <> R:36 var
+R3481:3481 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3488:3493 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3500:3500 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R3483:3486 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3482:3482 LF.LogicTest <> P:34 var
+R3487:3487 LF.LogicTest <> Q:35 var
+R3495:3498 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R3494:3494 LF.LogicTest <> P:34 var
+R3499:3499 LF.LogicTest <> R:36 var
+R3552:3574 LF.Logic <> or_distributes_over_and prfax
+def 3577:3585 <> Unnamed_thm
+R3582:3585 Corelib.Init.Logic <> True ind
+R3748:3762 LF.Logic <> dist_not_exists prfax
+binder 3775:3775 <> X:37
+R3791:3794 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3790:3790 LF.LogicTest <> X:37 var
+binder 3786:3786 <> P:38
+R3803:3803 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3821:3825 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3815:3815 LF.LogicTest <> X:37 var
+binder 3811:3811 <> x:39
+R3818:3818 LF.LogicTest <> P:38 var
+R3820:3820 LF.LogicTest <> x:39 var
+R3826:3828 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3848:3848 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3829:3835 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3841:3842 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3840:3840 LF.LogicTest <> X:37 var
+binder 3836:3836 <> x:40
+R3843:3844 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3845:3845 LF.LogicTest <> P:38 var
+R3847:3847 LF.LogicTest <> x:40 var
+R3748:3762 LF.Logic <> dist_not_exists prfax
+binder 3775:3775 <> X:41
+R3791:3794 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3790:3790 LF.LogicTest <> X:41 var
+binder 3786:3786 <> P:42
+R3803:3803 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3821:3825 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R3815:3815 LF.LogicTest <> X:41 var
+binder 3811:3811 <> x:43
+R3818:3818 LF.LogicTest <> P:42 var
+R3820:3820 LF.LogicTest <> x:43 var
+R3826:3828 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3848:3848 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3829:3835 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3841:3842 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3840:3840 LF.LogicTest <> X:41 var
+binder 3836:3836 <> x:44
+R3843:3844 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R3845:3845 LF.LogicTest <> P:42 var
+R3847:3847 LF.LogicTest <> x:44 var
+R3900:3914 LF.Logic <> dist_not_exists prfax
+def 3917:3925 <> Unnamed_thm
+R3922:3925 Corelib.Init.Logic <> True ind
+R4086:4099 LF.Logic <> dist_exists_or prfax
+binder 4112:4112 <> X:45
+R4130:4133 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4129:4129 LF.LogicTest <> X:45 var
+binder 4123:4123 <> P:46
+binder 4125:4125 <> Q:47
+R4142:4142 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4167:4172 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4143:4149 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4155:4156 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4154:4154 LF.LogicTest <> X:45 var
+binder 4150:4150 <> x:48
+R4160:4163 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4157:4157 LF.LogicTest <> P:46 var
+R4159:4159 LF.LogicTest <> x:48 var
+R4164:4164 LF.LogicTest <> Q:47 var
+R4166:4166 LF.LogicTest <> x:48 var
+R4173:4173 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4191:4196 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4214:4214 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4174:4180 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4186:4187 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4185:4185 LF.LogicTest <> X:45 var
+binder 4181:4181 <> x:49
+R4188:4188 LF.LogicTest <> P:46 var
+R4190:4190 LF.LogicTest <> x:49 var
+R4197:4203 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4209:4210 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4208:4208 LF.LogicTest <> X:45 var
+binder 4204:4204 <> x:50
+R4211:4211 LF.LogicTest <> Q:47 var
+R4213:4213 LF.LogicTest <> x:50 var
+R4086:4099 LF.Logic <> dist_exists_or prfax
+binder 4112:4112 <> X:51
+R4130:4133 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4129:4129 LF.LogicTest <> X:51 var
+binder 4123:4123 <> P:52
+binder 4125:4125 <> Q:53
+R4142:4142 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4167:4172 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4143:4149 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4155:4156 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4154:4154 LF.LogicTest <> X:51 var
+binder 4150:4150 <> x:54
+R4160:4163 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4157:4157 LF.LogicTest <> P:52 var
+R4159:4159 LF.LogicTest <> x:54 var
+R4164:4164 LF.LogicTest <> Q:53 var
+R4166:4166 LF.LogicTest <> x:54 var
+R4173:4173 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4191:4196 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4214:4214 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4174:4180 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4186:4187 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4185:4185 LF.LogicTest <> X:51 var
+binder 4181:4181 <> x:55
+R4188:4188 LF.LogicTest <> P:52 var
+R4190:4190 LF.LogicTest <> x:55 var
+R4197:4203 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4209:4210 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4208:4208 LF.LogicTest <> X:51 var
+binder 4204:4204 <> x:56
+R4211:4211 LF.LogicTest <> Q:53 var
+R4213:4213 LF.LogicTest <> x:56 var
+R4266:4279 LF.Logic <> dist_exists_or prfax
+def 4282:4290 <> Unnamed_thm
+R4287:4290 Corelib.Init.Logic <> True ind
+R4443:4452 LF.Logic <> In_map_iff prfax
+binder 4465:4465 <> A:57
+binder 4467:4467 <> B:58
+R4483:4486 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4482:4482 LF.LogicTest <> A:57 var
+R4487:4487 LF.LogicTest <> B:58 var
+binder 4478:4478 <> f:59
+R4495:4498 LF.Poly <> list ind
+R4500:4500 LF.LogicTest <> A:57 var
+binder 4491:4491 <> l:60
+R4508:4508 LF.LogicTest <> B:58 var
+binder 4504:4504 <> y:61
+R4535:4540 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4575:4575 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4514:4515 LF.Logic <> In def
+R4517:4517 LF.LogicTest <> B:58 var
+R4519:4519 LF.LogicTest <> y:61 var
+R4523:4525 LF.Poly <> map def
+R4527:4527 LF.LogicTest <> A:57 var
+R4529:4529 LF.LogicTest <> B:58 var
+R4531:4531 LF.LogicTest <> f:59 var
+R4533:4533 LF.LogicTest <> l:60 var
+R4541:4547 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4553:4554 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4552:4552 LF.LogicTest <> A:57 var
+binder 4548:4548 <> x:62
+R4562:4565 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4558:4560 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4555:4555 LF.LogicTest <> f:59 var
+R4557:4557 LF.LogicTest <> x:62 var
+R4561:4561 LF.LogicTest <> y:61 var
+R4567:4568 LF.Logic <> In def
+R4570:4570 LF.LogicTest <> A:57 var
+R4572:4572 LF.LogicTest <> x:62 var
+R4574:4574 LF.LogicTest <> l:60 var
+R4443:4452 LF.Logic <> In_map_iff prfax
+binder 4465:4465 <> A:63
+binder 4467:4467 <> B:64
+R4483:4486 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R4482:4482 LF.LogicTest <> A:63 var
+R4487:4487 LF.LogicTest <> B:64 var
+binder 4478:4478 <> f:65
+R4495:4498 LF.Poly <> list ind
+R4500:4500 LF.LogicTest <> A:63 var
+binder 4491:4491 <> l:66
+R4508:4508 LF.LogicTest <> B:64 var
+binder 4504:4504 <> y:67
+R4535:4540 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4575:4575 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4514:4515 LF.Logic <> In def
+R4517:4517 LF.LogicTest <> B:64 var
+R4519:4519 LF.LogicTest <> y:67 var
+R4523:4525 LF.Poly <> map def
+R4527:4527 LF.LogicTest <> A:63 var
+R4529:4529 LF.LogicTest <> B:64 var
+R4531:4531 LF.LogicTest <> f:65 var
+R4533:4533 LF.LogicTest <> l:66 var
+R4541:4547 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4553:4554 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4552:4552 LF.LogicTest <> A:63 var
+binder 4548:4548 <> x:68
+R4562:4565 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R4558:4560 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4555:4555 LF.LogicTest <> f:65 var
+R4557:4557 LF.LogicTest <> x:68 var
+R4561:4561 LF.LogicTest <> y:67 var
+R4567:4568 LF.Logic <> In def
+R4570:4570 LF.LogicTest <> A:63 var
+R4572:4572 LF.LogicTest <> x:68 var
+R4574:4574 LF.LogicTest <> l:66 var
+R4627:4636 LF.Logic <> In_map_iff prfax
+def 4639:4647 <> Unnamed_thm
+R4644:4647 Corelib.Init.Logic <> True ind
+R4800:4809 LF.Logic <> In_app_iff prfax
+binder 4822:4822 <> A:69
+R4840:4843 LF.Poly <> list ind
+R4845:4845 LF.LogicTest <> A:69 var
+binder 4833:4833 <> l:70
+binder 4835:4836 <> l':71
+R4853:4853 LF.LogicTest <> A:69 var
+binder 4849:4849 <> a:72
+R4875:4879 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4859:4860 LF.Logic <> In def
+R4862:4862 LF.LogicTest <> A:69 var
+R4864:4864 LF.LogicTest <> a:72 var
+R4868:4871 LF.Poly <> :::x_'++'_x not
+R4867:4867 LF.LogicTest <> l:70 var
+R4872:4873 LF.LogicTest <> l':71 var
+R4889:4892 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4881:4882 LF.Logic <> In def
+R4884:4884 LF.LogicTest <> A:69 var
+R4886:4886 LF.LogicTest <> a:72 var
+R4888:4888 LF.LogicTest <> l:70 var
+R4894:4895 LF.Logic <> In def
+R4897:4897 LF.LogicTest <> A:69 var
+R4899:4899 LF.LogicTest <> a:72 var
+R4901:4902 LF.LogicTest <> l':71 var
+R4800:4809 LF.Logic <> In_app_iff prfax
+binder 4822:4822 <> A:73
+R4840:4843 LF.Poly <> list ind
+R4845:4845 LF.LogicTest <> A:73 var
+binder 4833:4833 <> l:74
+binder 4835:4836 <> l':75
+R4853:4853 LF.LogicTest <> A:73 var
+binder 4849:4849 <> a:76
+R4875:4879 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R4859:4860 LF.Logic <> In def
+R4862:4862 LF.LogicTest <> A:73 var
+R4864:4864 LF.LogicTest <> a:76 var
+R4868:4871 LF.Poly <> :::x_'++'_x not
+R4867:4867 LF.LogicTest <> l:74 var
+R4872:4873 LF.LogicTest <> l':75 var
+R4889:4892 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R4881:4882 LF.Logic <> In def
+R4884:4884 LF.LogicTest <> A:73 var
+R4886:4886 LF.LogicTest <> a:76 var
+R4888:4888 LF.LogicTest <> l:74 var
+R4894:4895 LF.Logic <> In def
+R4897:4897 LF.LogicTest <> A:73 var
+R4899:4899 LF.LogicTest <> a:76 var
+R4901:4902 LF.LogicTest <> l':75 var
+R4954:4963 LF.Logic <> In_app_iff prfax
+def 4966:4974 <> Unnamed_thm
+R4971:4974 Corelib.Init.Logic <> True ind
+R5116:5121 LF.Logic <> All_In prfax
+binder 5134:5134 <> T:77
+R5150:5153 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5149:5149 LF.LogicTest <> T:77 var
+binder 5145:5145 <> P:78
+R5165:5168 LF.Poly <> list ind
+R5170:5170 LF.LogicTest <> T:77 var
+binder 5161:5161 <> l:79
+R5175:5175 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5206:5211 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5187:5187 LF.LogicTest <> T:77 var
+binder 5183:5183 <> x:80
+R5199:5202 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5191:5192 LF.Logic <> In def
+R5194:5194 LF.LogicTest <> T:77 var
+R5196:5196 LF.LogicTest <> x:80 var
+R5198:5198 LF.LogicTest <> l:79 var
+R5203:5203 LF.LogicTest <> P:78 var
+R5205:5205 LF.LogicTest <> x:80 var
+R5213:5215 LF.Logic <> All prfax
+R5217:5217 LF.LogicTest <> T:77 var
+R5219:5219 LF.LogicTest <> P:78 var
+R5221:5221 LF.LogicTest <> l:79 var
+R5116:5121 LF.Logic <> All_In prfax
+binder 5134:5134 <> T:81
+R5150:5153 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5149:5149 LF.LogicTest <> T:81 var
+binder 5145:5145 <> P:82
+R5165:5168 LF.Poly <> list ind
+R5170:5170 LF.LogicTest <> T:81 var
+binder 5161:5161 <> l:83
+R5175:5175 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5206:5211 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5187:5187 LF.LogicTest <> T:81 var
+binder 5183:5183 <> x:84
+R5199:5202 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R5191:5192 LF.Logic <> In def
+R5194:5194 LF.LogicTest <> T:81 var
+R5196:5196 LF.LogicTest <> x:84 var
+R5198:5198 LF.LogicTest <> l:83 var
+R5203:5203 LF.LogicTest <> P:82 var
+R5205:5205 LF.LogicTest <> x:84 var
+R5213:5215 LF.Logic <> All prfax
+R5217:5217 LF.LogicTest <> T:81 var
+R5219:5219 LF.LogicTest <> P:82 var
+R5221:5221 LF.LogicTest <> l:83 var
+R5273:5278 LF.Logic <> All_In prfax
+def 5281:5289 <> Unnamed_thm
+R5286:5289 Corelib.Init.Logic <> True ind
+R5454:5469 LF.Logic <> even_double_conv prfax
+R5485:5487 Corelib.Init.Datatypes <> nat ind
+binder 5481:5481 <> n:85
+R5491:5497 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5505:5506 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5502:5504 Corelib.Init.Datatypes <> nat ind
+binder 5498:5498 <> k:86
+R5508:5511 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5553:5553 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5507:5507 LF.LogicTest <> n:85 var
+R5515:5518 LF.Basics <> even def
+R5520:5520 LF.LogicTest <> n:85 var
+R5541:5541 Corelib.Init.Datatypes <> S constr
+R5544:5549 LF.Induction <> double def
+R5551:5551 LF.LogicTest <> k:86 var
+R5527:5532 LF.Induction <> double def
+R5534:5534 LF.LogicTest <> k:86 var
+R5454:5469 LF.Logic <> even_double_conv prfax
+R5485:5487 Corelib.Init.Datatypes <> nat ind
+binder 5481:5481 <> n:87
+R5491:5497 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5505:5506 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5502:5504 Corelib.Init.Datatypes <> nat ind
+binder 5498:5498 <> k:88
+R5508:5511 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5553:5553 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5507:5507 LF.LogicTest <> n:87 var
+R5515:5518 LF.Basics <> even def
+R5520:5520 LF.LogicTest <> n:87 var
+R5541:5541 Corelib.Init.Datatypes <> S constr
+R5544:5549 LF.Induction <> double def
+R5551:5551 LF.LogicTest <> k:88 var
+R5527:5532 LF.Induction <> double def
+R5534:5534 LF.LogicTest <> k:88 var
+R5605:5620 LF.Logic <> even_double_conv prfax
+def 5623:5631 <> Unnamed_thm
+R5628:5631 Corelib.Init.Logic <> True ind
+R5796:5808 LF.Logic <> andb_true_iff prfax
+R5828:5831 LF.Basics <> bool ind
+binder 5820:5821 <> b1:89
+binder 5823:5824 <> b2:90
+R5849:5853 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5842:5844 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5836:5839 LF.Basics <> :::x_'&&'_x not
+R5834:5835 LF.LogicTest <> b1:89 var
+R5840:5841 LF.LogicTest <> b2:90 var
+R5845:5848 LF.Basics <> true constr
+R5863:5866 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5856:5858 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5854:5855 LF.LogicTest <> b1:89 var
+R5859:5862 LF.Basics <> true constr
+R5869:5871 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5867:5868 LF.LogicTest <> b2:90 var
+R5872:5875 LF.Basics <> true constr
+R5796:5808 LF.Logic <> andb_true_iff prfax
+R5828:5831 LF.Basics <> bool ind
+binder 5820:5821 <> b1:91
+binder 5823:5824 <> b2:92
+R5849:5853 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R5842:5844 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5836:5839 LF.Basics <> :::x_'&&'_x not
+R5834:5835 LF.LogicTest <> b1:91 var
+R5840:5841 LF.LogicTest <> b2:92 var
+R5845:5848 LF.Basics <> true constr
+R5863:5866 Corelib.Init.Logic <> ::type_scope:x_'/\'_x not
+R5856:5858 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5854:5855 LF.LogicTest <> b1:91 var
+R5859:5862 LF.Basics <> true constr
+R5869:5871 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R5867:5868 LF.LogicTest <> b2:92 var
+R5872:5875 LF.Basics <> true constr
+R5927:5939 LF.Logic <> andb_true_iff prfax
+def 5942:5950 <> Unnamed_thm
+R5947:5950 Corelib.Init.Logic <> True ind
+R6030:6041 LF.Logic <> orb_true_iff prfax
+R6061:6064 LF.Basics <> bool ind
+binder 6053:6054 <> b1:93
+binder 6056:6057 <> b2:94
+R6082:6086 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6075:6077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6069:6072 LF.Basics <> :::x_'||'_x not
+R6067:6068 LF.LogicTest <> b1:93 var
+R6073:6074 LF.LogicTest <> b2:94 var
+R6078:6081 LF.Basics <> true constr
+R6096:6099 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6089:6091 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6087:6088 LF.LogicTest <> b1:93 var
+R6092:6095 LF.Basics <> true constr
+R6102:6104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6100:6101 LF.LogicTest <> b2:94 var
+R6105:6108 LF.Basics <> true constr
+R6030:6041 LF.Logic <> orb_true_iff prfax
+R6061:6064 LF.Basics <> bool ind
+binder 6053:6054 <> b1:95
+binder 6056:6057 <> b2:96
+R6082:6086 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6075:6077 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6069:6072 LF.Basics <> :::x_'||'_x not
+R6067:6068 LF.LogicTest <> b1:95 var
+R6073:6074 LF.LogicTest <> b2:96 var
+R6078:6081 LF.Basics <> true constr
+R6096:6099 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R6089:6091 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6087:6088 LF.LogicTest <> b1:95 var
+R6092:6095 LF.Basics <> true constr
+R6102:6104 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6100:6101 LF.LogicTest <> b2:96 var
+R6105:6108 LF.Basics <> true constr
+R6160:6171 LF.Logic <> orb_true_iff prfax
+def 6174:6182 <> Unnamed_thm
+R6179:6182 Corelib.Init.Logic <> True ind
+R6329:6335 LF.Logic <> eqb_neq prfax
+R6352:6354 Corelib.Init.Datatypes <> nat ind
+binder 6346:6346 <> x:97
+binder 6348:6348 <> y:98
+R6373:6377 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6357:6357 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6364:6367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6359:6362 LF.Basics <> ::nat_scope:x_'=?'_x not
+R6358:6358 LF.LogicTest <> x:97 var
+R6363:6363 LF.LogicTest <> y:98 var
+R6368:6372 LF.Basics <> false constr
+R6379:6382 LF.Logic <> ::type_scope:x_'<>'_x not
+R6378:6378 LF.LogicTest <> x:97 var
+R6383:6383 LF.LogicTest <> y:98 var
+R6329:6335 LF.Logic <> eqb_neq prfax
+R6352:6354 Corelib.Init.Datatypes <> nat ind
+binder 6346:6346 <> x:99
+binder 6348:6348 <> y:100
+R6373:6377 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6357:6357 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6364:6367 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6359:6362 LF.Basics <> ::nat_scope:x_'=?'_x not
+R6358:6358 LF.LogicTest <> x:99 var
+R6363:6363 LF.LogicTest <> y:100 var
+R6368:6372 LF.Basics <> false constr
+R6379:6382 LF.Logic <> ::type_scope:x_'<>'_x not
+R6378:6378 LF.LogicTest <> x:99 var
+R6383:6383 LF.LogicTest <> y:100 var
+R6435:6441 LF.Logic <> eqb_neq prfax
+def 6444:6452 <> Unnamed_thm
+R6449:6452 Corelib.Init.Logic <> True ind
+R6610:6626 LF.Logic <> eqb_list_true_iff prfax
+binder 6639:6639 <> A:101
+R6657:6660 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6656:6656 LF.LogicTest <> A:101 var
+R6662:6665 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6661:6661 LF.LogicTest <> A:101 var
+R6666:6669 LF.Basics <> bool ind
+binder 6650:6652 <> eqb:102
+R6674:6674 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6721:6726 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6690:6690 LF.LogicTest <> A:101 var
+binder 6682:6683 <> a1:103
+binder 6685:6686 <> a2:104
+R6709:6713 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6702:6704 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6693:6695 LF.LogicTest <> eqb:102 var
+R6700:6701 LF.LogicTest <> a2:104 var
+R6697:6698 LF.LogicTest <> a1:103 var
+R6705:6708 LF.Basics <> true constr
+R6716:6718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6714:6715 LF.LogicTest <> a1:103 var
+R6719:6720 LF.LogicTest <> a2:104 var
+R6742:6745 LF.Poly <> list ind
+R6747:6747 LF.LogicTest <> A:101 var
+binder 6734:6735 <> l1:105
+binder 6737:6738 <> l2:106
+R6778:6782 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6771:6773 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6751:6758 LF.Logic <> eqb_list prfax
+R6760:6760 LF.LogicTest <> A:101 var
+R6762:6764 LF.LogicTest <> eqb:102 var
+R6766:6767 LF.LogicTest <> l1:105 var
+R6769:6770 LF.LogicTest <> l2:106 var
+R6774:6777 LF.Basics <> true constr
+R6785:6787 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6783:6784 LF.LogicTest <> l1:105 var
+R6788:6789 LF.LogicTest <> l2:106 var
+R6610:6626 LF.Logic <> eqb_list_true_iff prfax
+binder 6639:6639 <> A:107
+R6657:6660 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6656:6656 LF.LogicTest <> A:107 var
+R6662:6665 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6661:6661 LF.LogicTest <> A:107 var
+R6666:6669 LF.Basics <> bool ind
+binder 6650:6652 <> eqb:108
+R6674:6674 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6721:6726 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R6690:6690 LF.LogicTest <> A:107 var
+binder 6682:6683 <> a1:109
+binder 6685:6686 <> a2:110
+R6709:6713 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6702:6704 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6693:6695 LF.LogicTest <> eqb:108 var
+R6700:6701 LF.LogicTest <> a2:110 var
+R6697:6698 LF.LogicTest <> a1:109 var
+R6705:6708 LF.Basics <> true constr
+R6716:6718 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6714:6715 LF.LogicTest <> a1:109 var
+R6719:6720 LF.LogicTest <> a2:110 var
+R6742:6745 LF.Poly <> list ind
+R6747:6747 LF.LogicTest <> A:107 var
+binder 6734:6735 <> l1:111
+binder 6737:6738 <> l2:112
+R6778:6782 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R6771:6773 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6751:6758 LF.Logic <> eqb_list prfax
+R6760:6760 LF.LogicTest <> A:107 var
+R6762:6764 LF.LogicTest <> eqb:108 var
+R6766:6767 LF.LogicTest <> l1:111 var
+R6769:6770 LF.LogicTest <> l2:112 var
+R6774:6777 LF.Basics <> true constr
+R6785:6787 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R6783:6784 LF.LogicTest <> l1:111 var
+R6788:6789 LF.LogicTest <> l2:112 var
+R6841:6857 LF.Logic <> eqb_list_true_iff prfax
+def 6860:6868 <> Unnamed_thm
+R6865:6868 Corelib.Init.Logic <> True ind
+R7028:7043 LF.Logic <> forallb_true_iff prfax
+binder 7056:7056 <> X:113
+R7075:7078 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7074:7074 LF.LogicTest <> X:113 var
+R7079:7082 LF.Basics <> bool ind
+binder 7067:7070 <> test:114
+R7090:7093 LF.Poly <> list ind
+R7095:7095 LF.LogicTest <> X:113 var
+binder 7086:7086 <> l:115
+R7124:7128 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7117:7119 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7101:7107 LF.Logic <> forallb prfax
+R7109:7109 LF.LogicTest <> X:113 var
+R7111:7114 LF.LogicTest <> test:114 var
+R7116:7116 LF.LogicTest <> l:115 var
+R7120:7123 LF.Basics <> true constr
+R7130:7132 LF.Logic <> All prfax
+R7134:7134 LF.LogicTest <> X:113 var
+R7145:7145 LF.LogicTest <> X:113 var
+binder 7141:7141 <> x:116
+R7156:7158 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7150:7153 LF.LogicTest <> test:114 var
+R7155:7155 LF.LogicTest <> x:116 var
+R7159:7162 LF.Basics <> true constr
+R7165:7165 LF.LogicTest <> l:115 var
+R7028:7043 LF.Logic <> forallb_true_iff prfax
+binder 7056:7056 <> X:117
+R7075:7078 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R7074:7074 LF.LogicTest <> X:117 var
+R7079:7082 LF.Basics <> bool ind
+binder 7067:7070 <> test:118
+R7090:7093 LF.Poly <> list ind
+R7095:7095 LF.LogicTest <> X:117 var
+binder 7086:7086 <> l:119
+R7124:7128 Corelib.Init.Logic <> ::type_scope:x_'<->'_x not
+R7117:7119 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7101:7107 LF.Logic <> forallb prfax
+R7109:7109 LF.LogicTest <> X:117 var
+R7111:7114 LF.LogicTest <> test:118 var
+R7116:7116 LF.LogicTest <> l:119 var
+R7120:7123 LF.Basics <> true constr
+R7130:7132 LF.Logic <> All prfax
+R7134:7134 LF.LogicTest <> X:117 var
+R7145:7145 LF.LogicTest <> X:117 var
+binder 7141:7141 <> x:120
+R7156:7158 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7150:7153 LF.LogicTest <> test:118 var
+R7155:7155 LF.LogicTest <> x:120 var
+R7159:7162 LF.Basics <> true constr
+R7165:7165 LF.LogicTest <> l:119 var
+R7217:7232 LF.Logic <> forallb_true_iff prfax
+def 7235:7243 <> Unnamed_thm
+R7240:7243 Corelib.Init.Logic <> True ind
+R7404:7417 LF.Logic <> tr_rev_correct prfax
+binder 7428:7428 <> X:121
+R7447:7449 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7439:7444 LF.Logic <> tr_rev def
+R7446:7446 LF.LogicTest <> X:121 var
+R7451:7453 LF.Poly <> rev def
+R7455:7455 LF.LogicTest <> X:121 var
+R7404:7417 LF.Logic <> tr_rev_correct prfax
+binder 7428:7428 <> X:122
+R7447:7449 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7439:7444 LF.Logic <> tr_rev def
+R7446:7446 LF.LogicTest <> X:122 var
+R7451:7453 LF.Poly <> rev def
+R7455:7455 LF.LogicTest <> X:122 var
+R7507:7520 LF.Logic <> tr_rev_correct prfax
+def 7523:7531 <> Unnamed_thm
+R7528:7531 Corelib.Init.Logic <> True ind
+R7718:7744 LF.Logic <> excluded_middle_irrefutable prfax
+binder 7755:7755 <> P:123
+R7765:7766 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7767:7769 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7778:7778 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7771:7774 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7770:7770 LF.LogicTest <> P:123 var
+R7775:7776 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7777:7777 LF.LogicTest <> P:123 var
+R7718:7744 LF.Logic <> excluded_middle_irrefutable prfax
+binder 7755:7755 <> P:124
+R7765:7766 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7767:7769 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7778:7778 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7771:7774 Corelib.Init.Logic <> ::type_scope:x_'\/'_x not
+R7770:7770 LF.LogicTest <> P:124 var
+R7775:7776 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R7777:7777 LF.LogicTest <> P:124 var
+R7830:7856 LF.Logic <> excluded_middle_irrefutable prfax
+def 7859:7867 <> Unnamed_thm
+R7864:7867 Corelib.Init.Logic <> True ind
+R8048:8062 LF.Logic <> not_exists_dist prfax
+R8082:8086 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8067:8081 LF.Logic <> excluded_middle def
+binder 8095:8095 <> X:125
+R8111:8114 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8110:8110 LF.LogicTest <> X:125 var
+binder 8106:8106 <> P:126
+R8146:8149 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8123:8125 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8145:8145 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8126:8132 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8138:8139 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8137:8137 LF.LogicTest <> X:125 var
+binder 8133:8133 <> x:127
+R8140:8141 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8142:8142 LF.LogicTest <> P:126 var
+R8144:8144 LF.LogicTest <> x:127 var
+R8161:8161 LF.LogicTest <> X:125 var
+binder 8157:8157 <> x:128
+R8164:8164 LF.LogicTest <> P:126 var
+R8166:8166 LF.LogicTest <> x:128 var
+R8048:8062 LF.Logic <> not_exists_dist prfax
+R8082:8086 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8067:8081 LF.Logic <> excluded_middle def
+binder 8095:8095 <> X:129
+R8111:8114 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8110:8110 LF.LogicTest <> X:129 var
+binder 8106:8106 <> P:130
+R8146:8149 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R8123:8125 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8145:8145 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8126:8132 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8138:8139 Corelib.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8137:8137 LF.LogicTest <> X:129 var
+binder 8133:8133 <> x:131
+R8140:8141 Corelib.Init.Logic <> ::type_scope:'~'_x not
+R8142:8142 LF.LogicTest <> P:130 var
+R8144:8144 LF.LogicTest <> x:131 var
+R8161:8161 LF.LogicTest <> X:129 var
+binder 8157:8157 <> x:132
+R8164:8164 LF.LogicTest <> P:130 var
+R8166:8166 LF.LogicTest <> x:132 var
+R8218:8232 LF.Logic <> not_exists_dist prfax
+def 8235:8243 <> Unnamed_thm
+R8240:8243 Corelib.Init.Logic <> True ind
+R9213:9221 LF.Logic <> plus_is_O prfax
+R9282:9290 LF.Logic <> and_assoc prfax
+R9351:9359 LF.Logic <> mult_is_O prfax
+R9420:9428 LF.Logic <> or_commut prfax
+R9494:9507 LF.Logic <> contrapositive prfax
+R9582:9604 LF.Logic <> not_both_true_and_false prfax
+R9672:9687 LF.Logic <> de_morgan_not_or prfax
+R9762:9784 LF.Logic <> or_distributes_over_and prfax
+R9851:9865 LF.Logic <> dist_not_exists prfax
+R9931:9944 LF.Logic <> dist_exists_or prfax
+R10006:10015 LF.Logic <> In_map_iff prfax
+R10077:10086 LF.Logic <> In_app_iff prfax
+R10144:10149 LF.Logic <> All_In prfax
+R10217:10232 LF.Logic <> even_double_conv prfax
+R10297:10309 LF.Logic <> andb_true_iff prfax
+R10373:10384 LF.Logic <> orb_true_iff prfax
+R10443:10449 LF.Logic <> eqb_neq prfax
+R10518:10534 LF.Logic <> eqb_list_true_iff prfax
+R10602:10617 LF.Logic <> forallb_true_iff prfax
+R10683:10696 LF.Logic <> tr_rev_correct prfax
+R10775:10801 LF.Logic <> excluded_middle_irrefutable prfax
+R11047:11061 LF.Logic <> not_exists_dist prfax

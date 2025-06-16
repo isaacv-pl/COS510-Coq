@@ -1,0 +1,129 @@
+DIGEST 9a27e40767f9f61e117a6c8903c5f484
+FLF.MapsTest
+R70:75 Stdlib.Strings.String <> <> lib
+R101:104 LF.Maps <> <> lib
+ax 118:124 <> MISSING
+mod 141:145 <> Check
+R211:217 LF.MapsTest <> MISSING defax
+R211:217 LF.MapsTest <> MISSING defax
+R410:413 Corelib.Init.Datatypes <> Some constr
+R410:413 Corelib.Init.Datatypes <> Some constr
+R593:596 Corelib.Init.Datatypes <> None constr
+R593:596 Corelib.Init.Datatypes <> None constr
+R678:682 LF.MapsTest Check <> mod
+R709:712 LF.Maps <> <> lib
+R722:726 LF.MapsTest Check <> mod
+def 730:738 <> Unnamed_thm
+R735:738 Corelib.Init.Logic <> True ind
+R886:898 LF.Maps <> t_update_same prfax
+binder 911:911 <> A:3
+R926:934 LF.Maps <> total_map def
+R936:936 LF.MapsTest <> A:3 var
+binder 922:922 <> m:4
+R944:949 Stdlib.Strings.String <> string ind
+binder 940:940 <> x:5
+R953:953 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R966:969 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R955:959 LF.Maps <> :::x_'!->'_x_';'_x not
+R963:964 LF.Maps <> :::x_'!->'_x_';'_x not
+R965:965 LF.MapsTest <> m:4 var
+R954:954 LF.MapsTest <> x:5 var
+R960:960 LF.MapsTest <> m:4 var
+R962:962 LF.MapsTest <> x:5 var
+R970:970 LF.MapsTest <> m:4 var
+R886:898 LF.Maps <> t_update_same prfax
+binder 911:911 <> A:6
+R926:934 LF.Maps <> total_map def
+R936:936 LF.MapsTest <> A:6 var
+binder 922:922 <> m:7
+R944:949 Stdlib.Strings.String <> string ind
+binder 940:940 <> x:8
+R953:953 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R966:969 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R955:959 LF.Maps <> :::x_'!->'_x_';'_x not
+R963:964 LF.Maps <> :::x_'!->'_x_';'_x not
+R965:965 LF.MapsTest <> m:7 var
+R954:954 LF.MapsTest <> x:8 var
+R960:960 LF.MapsTest <> m:7 var
+R962:962 LF.MapsTest <> x:8 var
+R970:970 LF.MapsTest <> m:7 var
+R1022:1034 LF.Maps <> t_update_same prfax
+def 1037:1045 <> Unnamed_thm
+R1042:1045 Corelib.Init.Logic <> True ind
+R1210:1225 LF.Maps <> t_update_permute prfax
+binder 1238:1238 <> A:9
+R1253:1261 LF.Maps <> total_map def
+R1263:1263 LF.MapsTest <> A:9 var
+binder 1249:1249 <> m:10
+R1275:1275 LF.MapsTest <> A:9 var
+binder 1267:1268 <> v1:11
+binder 1270:1271 <> v2:12
+R1287:1292 Stdlib.Strings.String <> string ind
+binder 1279:1280 <> x1:13
+binder 1282:1283 <> x2:14
+R1305:1308 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1299:1302 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1297:1298 LF.MapsTest <> x2:14 var
+R1303:1304 LF.MapsTest <> x1:13 var
+R1309:1309 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1333:1337 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1361:1361 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1312:1316 LF.Maps <> :::x_'!->'_x_';'_x not
+R1319:1320 LF.Maps <> :::x_'!->'_x_';'_x not
+R1323:1327 LF.Maps <> :::x_'!->'_x_';'_x not
+R1330:1331 LF.Maps <> :::x_'!->'_x_';'_x not
+R1332:1332 LF.MapsTest <> m:10 var
+R1321:1322 LF.MapsTest <> x2:14 var
+R1328:1329 LF.MapsTest <> v2:12 var
+R1310:1311 LF.MapsTest <> x1:13 var
+R1317:1318 LF.MapsTest <> v1:11 var
+R1340:1344 LF.Maps <> :::x_'!->'_x_';'_x not
+R1347:1348 LF.Maps <> :::x_'!->'_x_';'_x not
+R1351:1355 LF.Maps <> :::x_'!->'_x_';'_x not
+R1358:1359 LF.Maps <> :::x_'!->'_x_';'_x not
+R1360:1360 LF.MapsTest <> m:10 var
+R1349:1350 LF.MapsTest <> x1:13 var
+R1356:1357 LF.MapsTest <> v1:11 var
+R1338:1339 LF.MapsTest <> x2:14 var
+R1345:1346 LF.MapsTest <> v2:12 var
+R1210:1225 LF.Maps <> t_update_permute prfax
+binder 1238:1238 <> A:15
+R1253:1261 LF.Maps <> total_map def
+R1263:1263 LF.MapsTest <> A:15 var
+binder 1249:1249 <> m:16
+R1275:1275 LF.MapsTest <> A:15 var
+binder 1267:1268 <> v1:17
+binder 1270:1271 <> v2:18
+R1287:1292 Stdlib.Strings.String <> string ind
+binder 1279:1280 <> x1:19
+binder 1282:1283 <> x2:20
+R1305:1308 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R1299:1302 Corelib.Init.Logic <> ::type_scope:x_'<>'_x not
+R1297:1298 LF.MapsTest <> x2:20 var
+R1303:1304 LF.MapsTest <> x1:19 var
+R1309:1309 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1333:1337 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1361:1361 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R1312:1316 LF.Maps <> :::x_'!->'_x_';'_x not
+R1319:1320 LF.Maps <> :::x_'!->'_x_';'_x not
+R1323:1327 LF.Maps <> :::x_'!->'_x_';'_x not
+R1330:1331 LF.Maps <> :::x_'!->'_x_';'_x not
+R1332:1332 LF.MapsTest <> m:16 var
+R1321:1322 LF.MapsTest <> x2:20 var
+R1328:1329 LF.MapsTest <> v2:18 var
+R1310:1311 LF.MapsTest <> x1:19 var
+R1317:1318 LF.MapsTest <> v1:17 var
+R1340:1344 LF.Maps <> :::x_'!->'_x_';'_x not
+R1347:1348 LF.Maps <> :::x_'!->'_x_';'_x not
+R1351:1355 LF.Maps <> :::x_'!->'_x_';'_x not
+R1358:1359 LF.Maps <> :::x_'!->'_x_';'_x not
+R1360:1360 LF.MapsTest <> m:16 var
+R1349:1350 LF.MapsTest <> x1:19 var
+R1356:1357 LF.MapsTest <> v1:17 var
+R1338:1339 LF.MapsTest <> x2:20 var
+R1345:1346 LF.MapsTest <> v2:18 var
+R1413:1428 LF.Maps <> t_update_permute prfax
+def 1431:1439 <> Unnamed_thm
+R1436:1439 Corelib.Init.Logic <> True ind
+R2411:2423 LF.Maps <> t_update_same prfax
+R2491:2506 LF.Maps <> t_update_permute prfax

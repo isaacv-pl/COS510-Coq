@@ -1,0 +1,1481 @@
+DIGEST a64d2295804f0e43db323b0521d28a00
+FLF.Basics
+ind 5853:5855 <> day
+constr 5871:5876 <> monday
+constr 5882:5888 <> tuesday
+constr 5894:5902 <> wednesday
+constr 5908:5915 <> thursday
+constr 5921:5926 <> friday
+constr 5932:5939 <> saturday
+constr 5945:5950 <> sunday
+scheme 5853:5855 <> day_rect
+scheme 5853:5855 <> day_ind
+scheme 5853:5855 <> day_rec
+scheme 5853:5855 <> day_sind
+def 6129:6144 <> next_working_day
+R6149:6151 LF.Basics <> day ind
+binder 6147:6147 <> d:3
+R6156:6158 LF.Basics <> day ind
+R6171:6171 LF.Basics <> d:3 var
+R6182:6187 LF.Basics <> monday constr
+R6195:6201 LF.Basics <> tuesday constr
+R6207:6213 LF.Basics <> tuesday constr
+R6220:6228 LF.Basics <> wednesday constr
+R6234:6242 LF.Basics <> wednesday constr
+R6247:6254 LF.Basics <> thursday constr
+R6260:6267 LF.Basics <> thursday constr
+R6273:6278 LF.Basics <> friday constr
+R6284:6289 LF.Basics <> friday constr
+R6297:6302 LF.Basics <> monday constr
+R6308:6315 LF.Basics <> saturday constr
+R6321:6326 LF.Basics <> monday constr
+R6332:6337 LF.Basics <> sunday constr
+R6345:6350 LF.Basics <> monday constr
+R6965:6980 LF.Basics <> next_working_day def
+R6982:6987 LF.Basics <> friday constr
+R7024:7039 LF.Basics <> next_working_day def
+R7042:7057 LF.Basics <> next_working_day def
+R7059:7066 LF.Basics <> saturday constr
+def 7587:7607 <> test_next_working_day
+R7612:7612 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7657:7660 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7613:7628 LF.Basics <> next_working_day def
+R7631:7646 LF.Basics <> next_working_day def
+R7648:7655 LF.Basics <> saturday constr
+R7661:7667 LF.Basics <> tuesday constr
+R9211:9216 Stdlib.Strings.String <> <> lib
+ind 9476:9479 <> bool
+constr 9495:9498 <> true
+constr 9504:9508 <> false
+scheme 9476:9479 <> bool_rect
+scheme 9476:9479 <> bool_ind
+scheme 9476:9479 <> bool_rec
+scheme 9476:9479 <> bool_sind
+def 9600:9603 <> negb
+R9608:9611 LF.Basics <> bool ind
+binder 9606:9606 <> b:7
+R9616:9619 LF.Basics <> bool ind
+R9632:9632 LF.Basics <> b:7 var
+R9643:9646 LF.Basics <> true constr
+R9651:9655 LF.Basics <> false constr
+R9661:9665 LF.Basics <> false constr
+R9670:9673 LF.Basics <> true constr
+def 9694:9697 <> andb
+R9703:9706 LF.Basics <> bool ind
+binder 9700:9701 <> b1:9
+R9713:9716 LF.Basics <> bool ind
+binder 9710:9711 <> b2:10
+R9721:9724 LF.Basics <> bool ind
+R9737:9738 LF.Basics <> b1:9 var
+R9749:9752 LF.Basics <> true constr
+R9757:9758 LF.Basics <> b2:10 var
+R9764:9768 LF.Basics <> false constr
+R9773:9777 LF.Basics <> false constr
+def 9798:9800 <> orb
+R9806:9809 LF.Basics <> bool ind
+binder 9803:9804 <> b1:12
+R9816:9819 LF.Basics <> bool ind
+binder 9813:9814 <> b2:13
+R9824:9827 LF.Basics <> bool ind
+R9840:9841 LF.Basics <> b1:12 var
+R9852:9855 LF.Basics <> true constr
+R9860:9863 LF.Basics <> true constr
+R9869:9873 LF.Basics <> false constr
+R9878:9879 LF.Basics <> b2:13 var
+def 10562:10570 <> test_orb1
+R10574:10574 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10590:10593 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10575:10577 LF.Basics <> orb def
+R10579:10582 LF.Basics <> true constr
+R10585:10589 LF.Basics <> false constr
+R10594:10597 LF.Basics <> true constr
+def 10641:10649 <> test_orb2
+R10653:10653 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10669:10672 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10654:10656 LF.Basics <> orb def
+R10658:10662 LF.Basics <> false constr
+R10664:10668 LF.Basics <> false constr
+R10673:10677 LF.Basics <> false constr
+def 10721:10729 <> test_orb3
+R10733:10733 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10748:10752 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10734:10736 LF.Basics <> orb def
+R10738:10742 LF.Basics <> false constr
+R10744:10747 LF.Basics <> true constr
+R10753:10756 LF.Basics <> true constr
+def 10800:10808 <> test_orb4
+R10812:10812 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10827:10831 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10813:10815 LF.Basics <> orb def
+R10817:10820 LF.Basics <> true constr
+R10823:10826 LF.Basics <> true constr
+R10832:10835 LF.Basics <> true constr
+R11091:11094 LF.Basics <> andb def
+not 11078:11078 <> :::x_'&&'_x
+R11124:11126 LF.Basics <> orb def
+not 11111:11111 <> :::x_'||'_x
+def 11143:11151 <> test_orb5
+R11177:11179 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11169:11172 LF.Basics <> :::x_'||'_x not
+R11160:11163 LF.Basics <> :::x_'||'_x not
+R11155:11159 LF.Basics <> false constr
+R11164:11168 LF.Basics <> false constr
+R11173:11176 LF.Basics <> true constr
+R11180:11183 LF.Basics <> true constr
+def 11712:11716 <> negb'
+R11721:11724 LF.Basics <> bool ind
+binder 11719:11719 <> b:15
+R11729:11732 LF.Basics <> bool ind
+R11742:11742 LF.Basics <> b:15 var
+R11762:11765 LF.Basics <> true constr
+R11749:11753 LF.Basics <> false constr
+def 11780:11784 <> andb'
+R11790:11793 LF.Basics <> bool ind
+binder 11787:11788 <> b1:16
+R11800:11803 LF.Basics <> bool ind
+binder 11797:11798 <> b2:17
+R11808:11811 LF.Basics <> bool ind
+R11821:11822 LF.Basics <> b1:16 var
+R11839:11843 LF.Basics <> false constr
+R11829:11830 LF.Basics <> b2:17 var
+def 11858:11861 <> orb'
+R11867:11870 LF.Basics <> bool ind
+binder 11864:11865 <> b1:18
+R11877:11880 LF.Basics <> bool ind
+binder 11874:11875 <> b2:19
+R11885:11888 LF.Basics <> bool ind
+R11898:11899 LF.Basics <> b1:18 var
+R11918:11919 LF.Basics <> b2:19 var
+R11906:11909 LF.Basics <> true constr
+ind 12672:12673 <> bw
+constr 12689:12696 <> bw_black
+constr 12702:12709 <> bw_white
+scheme 12672:12673 <> bw_rect
+scheme 12672:12673 <> bw_ind
+scheme 12672:12673 <> bw_rec
+scheme 12672:12673 <> bw_sind
+def 12724:12729 <> invert
+R12735:12736 LF.Basics <> bw ind
+binder 12732:12732 <> x:22
+R12741:12742 LF.Basics <> bw ind
+R12752:12752 LF.Basics <> x:22 var
+R12775:12782 LF.Basics <> bw_black constr
+R12759:12766 LF.Basics <> bw_white constr
+R12795:12800 LF.Basics <> invert def
+R12802:12809 LF.Basics <> bw_black constr
+R12847:12852 LF.Basics <> invert def
+R12854:12861 LF.Basics <> bw_white constr
+def 13852:13856 <> nandb
+R13862:13865 LF.Basics <> bool ind
+binder 13859:13860 <> b1:23
+R13872:13875 LF.Basics <> bool ind
+binder 13869:13870 <> b2:24
+R13880:13883 LF.Basics <> bool ind
+R13890:13894 LF.Basics <> negb' def
+R13897:13901 LF.Basics <> andb' def
+R13903:13904 LF.Basics <> b1:23 var
+R13906:13907 LF.Basics <> b2:24 var
+def 13920:13930 <> test_nandb1
+R13947:13947 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13964:13967 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13948:13952 LF.Basics <> nandb def
+R13954:13957 LF.Basics <> true constr
+R13959:13963 LF.Basics <> false constr
+R13968:13971 LF.Basics <> true constr
+def 14014:14024 <> test_nandb2
+R14041:14041 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14059:14062 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14042:14046 LF.Basics <> nandb def
+R14048:14052 LF.Basics <> false constr
+R14054:14058 LF.Basics <> false constr
+R14063:14066 LF.Basics <> true constr
+def 14109:14119 <> test_nandb3
+R14136:14136 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14153:14156 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14137:14141 LF.Basics <> nandb def
+R14143:14147 LF.Basics <> false constr
+R14149:14152 LF.Basics <> true constr
+R14157:14160 LF.Basics <> true constr
+def 14203:14213 <> test_nandb4
+R14230:14230 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14246:14249 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14231:14235 LF.Basics <> nandb def
+R14237:14240 LF.Basics <> true constr
+R14242:14245 LF.Basics <> true constr
+R14250:14254 LF.Basics <> false constr
+def 14509:14513 <> andb3
+R14519:14522 LF.Basics <> bool ind
+binder 14516:14517 <> b1:25
+R14529:14532 LF.Basics <> bool ind
+binder 14526:14527 <> b2:26
+R14539:14542 LF.Basics <> bool ind
+binder 14536:14537 <> b3:27
+R14547:14550 LF.Basics <> bool ind
+R14556:14560 LF.Basics <> andb' def
+R14563:14567 LF.Basics <> andb' def
+R14569:14570 LF.Basics <> b1:25 var
+R14572:14573 LF.Basics <> b2:26 var
+R14576:14577 LF.Basics <> b3:27 var
+def 14590:14600 <> test_andb31
+R14619:14619 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14640:14643 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14620:14624 LF.Basics <> andb3 def
+R14626:14629 LF.Basics <> true constr
+R14631:14634 LF.Basics <> true constr
+R14636:14639 LF.Basics <> true constr
+R14644:14647 LF.Basics <> true constr
+def 14691:14701 <> test_andb32
+R14720:14720 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14742:14745 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14721:14725 LF.Basics <> andb3 def
+R14727:14731 LF.Basics <> false constr
+R14733:14736 LF.Basics <> true constr
+R14738:14741 LF.Basics <> true constr
+R14746:14750 LF.Basics <> false constr
+def 14794:14804 <> test_andb33
+R14823:14823 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14845:14848 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14824:14828 LF.Basics <> andb3 def
+R14830:14833 LF.Basics <> true constr
+R14835:14839 LF.Basics <> false constr
+R14841:14844 LF.Basics <> true constr
+R14849:14853 LF.Basics <> false constr
+def 14896:14906 <> test_andb34
+R14925:14925 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14947:14950 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14926:14930 LF.Basics <> andb3 def
+R14932:14935 LF.Basics <> true constr
+R14937:14940 LF.Basics <> true constr
+R14942:14946 LF.Basics <> false constr
+R14951:14955 LF.Basics <> false constr
+R15255:15258 LF.Basics <> true constr
+R15492:15495 LF.Basics <> bool ind
+R15483:15486 LF.Basics <> true constr
+R15520:15523 LF.Basics <> bool ind
+R15505:15508 LF.Basics <> negb def
+R15510:15513 LF.Basics <> true constr
+R15719:15722 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R15715:15718 LF.Basics <> bool ind
+R15723:15726 LF.Basics <> bool ind
+R15706:15709 LF.Basics <> negb def
+ind 16483:16485 <> rgb
+constr 16501:16503 <> red
+constr 16509:16513 <> green
+constr 16519:16522 <> blue
+scheme 16483:16485 <> rgb_rect
+scheme 16483:16485 <> rgb_ind
+scheme 16483:16485 <> rgb_rec
+scheme 16483:16485 <> rgb_sind
+ind 16536:16540 <> color
+constr 16556:16560 <> black
+constr 16566:16570 <> white
+constr 16576:16582 <> primary
+R16589:16591 LF.Basics <> rgb ind
+binder 16585:16585 <> p:32
+scheme 16536:16540 <> color_rect
+scheme 16536:16540 <> color_ind
+scheme 16536:16540 <> color_rec
+scheme 16536:16540 <> color_sind
+def 18069:18078 <> monochrome
+R18085:18089 LF.Basics <> color ind
+binder 18081:18081 <> c:33
+R18094:18097 LF.Basics <> bool ind
+R18110:18110 LF.Basics <> c:33 var
+R18121:18125 LF.Basics <> black constr
+R18130:18133 LF.Basics <> true constr
+R18139:18143 LF.Basics <> white constr
+R18148:18151 LF.Basics <> true constr
+R18157:18163 LF.Basics <> primary constr
+R18170:18174 LF.Basics <> false constr
+def 18433:18437 <> isred
+R18444:18448 LF.Basics <> color ind
+binder 18440:18440 <> c:35
+R18453:18456 LF.Basics <> bool ind
+R18469:18469 LF.Basics <> c:35 var
+R18480:18484 LF.Basics <> black constr
+R18489:18493 LF.Basics <> false constr
+R18499:18503 LF.Basics <> white constr
+R18508:18512 LF.Basics <> false constr
+R18518:18524 LF.Basics <> primary constr
+R18526:18528 LF.Basics <> red constr
+R18533:18536 LF.Basics <> true constr
+R18542:18548 LF.Basics <> primary constr
+R18555:18559 LF.Basics <> false constr
+mod 19406:19415 <> Playground
+def 19431:19433 Playground foo
+R19437:19439 LF.Basics <> rgb ind
+R19444:19447 LF.Basics <> blue constr
+R19454:19463 LF.Basics Playground <> mod
+def 19478:19480 <> foo
+R19484:19487 LF.Basics <> bool ind
+R19492:19495 LF.Basics <> true constr
+R19522:19524 LF.Basics <> rgb ind
+R19505:19518 LF.Basics <> foo def
+R19539:19542 LF.Basics <> bool ind
+R19533:19535 LF.Basics <> foo def
+mod 19643:19657 <> TuplePlayground
+ind 20071:20073 TuplePlayground bit
+constr 20089:20090 TuplePlayground B1
+constr 20096:20097 TuplePlayground B0
+scheme 20071:20073 TuplePlayground bit_rect
+scheme 20071:20073 TuplePlayground bit_ind
+scheme 20071:20073 TuplePlayground bit_rec
+scheme 20071:20073 TuplePlayground bit_sind
+ind 20111:20116 TuplePlayground nybble
+constr 20132:20135 TuplePlayground bits
+R20152:20154 LF.Basics TuplePlayground bit ind
+binder 20138:20139 <> b0:41
+binder 20141:20142 <> b1:42
+binder 20144:20145 <> b2:43
+binder 20147:20148 <> b3:44
+scheme 20111:20116 TuplePlayground nybble_rect
+scheme 20111:20116 TuplePlayground nybble_ind
+scheme 20111:20116 TuplePlayground nybble_rec
+scheme 20111:20116 TuplePlayground nybble_sind
+R20188:20193 LF.Basics TuplePlayground nybble ind
+R20166:20169 LF.Basics TuplePlayground bits constr
+R20171:20172 LF.Basics TuplePlayground B1 constr
+R20174:20175 LF.Basics TuplePlayground B0 constr
+R20177:20178 LF.Basics TuplePlayground B1 constr
+R20180:20181 LF.Basics TuplePlayground B0 constr
+def 20534:20541 TuplePlayground all_zero
+R20549:20554 LF.Basics TuplePlayground nybble ind
+binder 20544:20545 <> nb:45
+R20559:20562 LF.Basics <> bool ind
+R20575:20576 LF.Basics <> nb:45 var
+R20588:20591 LF.Basics TuplePlayground bits constr
+R20602:20603 LF.Basics TuplePlayground B0 constr
+R20599:20600 LF.Basics TuplePlayground B0 constr
+R20596:20597 LF.Basics TuplePlayground B0 constr
+R20593:20594 LF.Basics TuplePlayground B0 constr
+R20609:20612 LF.Basics <> true constr
+R20619:20622 LF.Basics TuplePlayground bits constr
+R20636:20640 LF.Basics <> false constr
+R20659:20666 LF.Basics TuplePlayground all_zero def
+R20669:20672 LF.Basics TuplePlayground bits constr
+R20674:20675 LF.Basics TuplePlayground B1 constr
+R20677:20678 LF.Basics TuplePlayground B0 constr
+R20680:20681 LF.Basics TuplePlayground B1 constr
+R20683:20684 LF.Basics TuplePlayground B0 constr
+R20722:20729 LF.Basics TuplePlayground all_zero def
+R20732:20735 LF.Basics TuplePlayground bits constr
+R20737:20738 LF.Basics TuplePlayground B0 constr
+R20740:20741 LF.Basics TuplePlayground B0 constr
+R20743:20744 LF.Basics TuplePlayground B0 constr
+R20746:20747 LF.Basics TuplePlayground B0 constr
+R20780:20794 LF.Basics TuplePlayground <> mod
+mod 21121:21133 <> NatPlayground
+ind 22978:22980 NatPlayground nat
+constr 22996:22996 NatPlayground O
+constr 23002:23002 NatPlayground S
+R23009:23011 LF.Basics <> nat:47 ind
+binder 23005:23005 <> n:49
+scheme 22978:22980 NatPlayground nat_rect
+scheme 22978:22980 NatPlayground nat_ind
+scheme 22978:22980 NatPlayground nat_rec
+scheme 22978:22980 NatPlayground nat_sind
+ind 24817:24824 NatPlayground otherNat
+constr 24840:24843 NatPlayground stop
+constr 24849:24852 NatPlayground tick
+R24861:24868 LF.Basics <> otherNat:50 ind
+binder 24855:24857 <> foo:52
+scheme 24817:24824 NatPlayground otherNat_rect
+scheme 24817:24824 NatPlayground otherNat_ind
+scheme 24817:24824 NatPlayground otherNat_rec
+scheme 24817:24824 NatPlayground otherNat_sind
+def 25179:25182 NatPlayground pred
+R25189:25191 LF.Basics NatPlayground nat ind
+binder 25185:25185 <> n:53
+R25196:25198 LF.Basics NatPlayground nat ind
+R25211:25211 LF.Basics <> n:53 var
+R25222:25222 LF.Basics NatPlayground O constr
+R25227:25227 LF.Basics NatPlayground O constr
+R25233:25233 LF.Basics NatPlayground S constr
+R25493:25505 LF.Basics NatPlayground <> mod
+R25845:25845 Corelib.Init.Datatypes <> S constr
+R25848:25848 Corelib.Init.Datatypes <> S constr
+R25851:25851 Corelib.Init.Datatypes <> S constr
+R25854:25854 Corelib.Init.Datatypes <> S constr
+R25856:25856 Corelib.Init.Datatypes <> O constr
+def 25894:25901 <> minustwo
+R25908:25910 Corelib.Init.Datatypes <> nat ind
+binder 25904:25904 <> n:55
+R25915:25917 Corelib.Init.Datatypes <> nat ind
+R25930:25930 LF.Basics <> n:55 var
+R25941:25941 Corelib.Init.Datatypes <> O constr
+R25946:25946 Corelib.Init.Datatypes <> O constr
+R25952:25952 Corelib.Init.Datatypes <> S constr
+R25954:25954 Corelib.Init.Datatypes <> O constr
+R25959:25959 Corelib.Init.Datatypes <> O constr
+R25965:25965 Corelib.Init.Datatypes <> S constr
+R25968:25968 Corelib.Init.Datatypes <> S constr
+R25997:26004 LF.Basics <> minustwo def
+R26160:26163 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26157:26159 Corelib.Init.Datatypes <> nat ind
+R26164:26166 Corelib.Init.Datatypes <> nat ind
+R26146:26146 Corelib.Init.Datatypes <> S constr
+R26189:26192 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26186:26188 Corelib.Init.Datatypes <> nat ind
+R26193:26195 Corelib.Init.Datatypes <> nat ind
+R26175:26178 Corelib.Init.Peano <> pred abbrev
+R26218:26221 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R26215:26217 Corelib.Init.Datatypes <> nat ind
+R26222:26224 Corelib.Init.Datatypes <> nat ind
+R26204:26211 LF.Basics <> minustwo def
+def 27459:27462 <> even
+R27467:27469 Corelib.Init.Datatypes <> nat ind
+binder 27465:27465 <> n:57
+R27474:27477 LF.Basics <> bool ind
+R27490:27490 LF.Basics <> n:57 var
+R27501:27501 Corelib.Init.Datatypes <> O constr
+R27513:27516 LF.Basics <> true constr
+R27522:27522 Corelib.Init.Datatypes <> S constr
+R27524:27524 Corelib.Init.Datatypes <> O constr
+R27534:27538 LF.Basics <> false constr
+R27544:27544 Corelib.Init.Datatypes <> S constr
+R27547:27547 Corelib.Init.Datatypes <> S constr
+R27556:27559 LF.Basics <> even:58 def
+def 27681:27683 <> odd
+R27688:27690 Corelib.Init.Datatypes <> nat ind
+binder 27686:27686 <> n:60
+R27695:27698 LF.Basics <> bool ind
+R27705:27708 LF.Basics <> negb def
+R27711:27714 LF.Basics <> even def
+R27716:27716 LF.Basics <> n:60 var
+def 27729:27737 <> test_odd1
+R27748:27750 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27743:27745 LF.Basics <> odd def
+R27751:27754 LF.Basics <> true constr
+def 27798:27806 <> test_odd2
+R27817:27819 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R27812:27814 LF.Basics <> odd def
+R27820:27824 LF.Basics <> false constr
+mod 28134:28147 <> NatPlayground2
+def 28160:28163 NatPlayground2 plus
+R28170:28172 Corelib.Init.Datatypes <> nat ind
+binder 28166:28166 <> n:61
+R28180:28182 Corelib.Init.Datatypes <> nat ind
+binder 28176:28176 <> m:62
+R28187:28189 Corelib.Init.Datatypes <> nat ind
+R28202:28202 LF.Basics <> n:61 var
+R28213:28213 Corelib.Init.Datatypes <> O constr
+R28218:28218 LF.Basics <> m:62 var
+R28224:28224 Corelib.Init.Datatypes <> S constr
+R28232:28232 Corelib.Init.Datatypes <> S constr
+R28235:28238 LF.Basics <> plus:63 def
+R28243:28243 LF.Basics <> m:62 var
+R28314:28317 LF.Basics NatPlayground2 plus def
+def 29084:29087 NatPlayground2 mult
+R29096:29098 Corelib.Init.Datatypes <> nat ind
+binder 29090:29090 <> n:65
+binder 29092:29092 <> m:66
+R29103:29105 Corelib.Init.Datatypes <> nat ind
+R29118:29118 LF.Basics <> n:65 var
+R29129:29129 Corelib.Init.Datatypes <> O constr
+R29134:29134 Corelib.Init.Datatypes <> O constr
+R29140:29140 Corelib.Init.Datatypes <> S constr
+R29148:29151 LF.Basics NatPlayground2 plus def
+R29153:29153 LF.Basics <> m:66 var
+R29156:29159 LF.Basics <> mult:67 def
+R29164:29164 LF.Basics <> m:66 var
+def 29183:29192 NatPlayground2 test_mult1
+R29195:29195 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29204:29207 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29196:29199 LF.Basics NatPlayground2 mult def
+def 29336:29340 NatPlayground2 minus
+R29347:29349 Corelib.Init.Datatypes <> nat ind
+binder 29343:29343 <> n:69
+binder 29345:29345 <> m:70
+R29354:29356 Corelib.Init.Datatypes <> nat ind
+R29372:29372 LF.Basics <> m:70 var
+R29369:29369 LF.Basics <> n:69 var
+R29383:29383 Corelib.Init.Datatypes <> O constr
+R29397:29397 Corelib.Init.Datatypes <> O constr
+R29403:29403 Corelib.Init.Datatypes <> S constr
+R29409:29409 Corelib.Init.Datatypes <> O constr
+R29417:29417 LF.Basics <> n:69 var
+R29423:29423 Corelib.Init.Datatypes <> S constr
+R29429:29429 Corelib.Init.Datatypes <> S constr
+R29437:29441 LF.Basics <> minus:71 def
+R29461:29474 LF.Basics NatPlayground2 <> mod
+def 29487:29489 <> exp
+R29505:29507 Corelib.Init.Datatypes <> nat ind
+binder 29492:29495 <> base:74
+binder 29497:29501 <> power:75
+R29512:29514 Corelib.Init.Datatypes <> nat ind
+R29527:29531 LF.Basics <> power:75 var
+R29542:29542 Corelib.Init.Datatypes <> O constr
+R29547:29547 Corelib.Init.Datatypes <> S constr
+R29549:29549 Corelib.Init.Datatypes <> O constr
+R29555:29555 Corelib.Init.Datatypes <> S constr
+R29562:29565 Corelib.Init.Peano <> mult abbrev
+R29567:29570 LF.Basics <> base:74 var
+R29573:29575 LF.Basics <> exp:76 def
+R29577:29580 LF.Basics <> base:74 var
+def 30052:30060 <> factorial
+R30065:30067 Corelib.Init.Datatypes <> nat ind
+binder 30063:30063 <> n:78
+R30072:30074 Corelib.Init.Datatypes <> nat ind
+R30087:30087 LF.Basics <> n:78 var
+R30098:30098 Corelib.Init.Datatypes <> O constr
+R30103:30103 Corelib.Init.Datatypes <> S constr
+R30105:30105 Corelib.Init.Datatypes <> O constr
+R30111:30111 Corelib.Init.Datatypes <> S constr
+R30118:30121 Corelib.Init.Peano <> mult abbrev
+R30123:30123 LF.Basics <> n:78 var
+R30126:30134 LF.Basics <> factorial:79 def
+def 30159:30173 <> test_factorial1
+R30185:30185 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30197:30200 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30186:30194 LF.Basics <> factorial def
+def 30245:30259 <> test_factorial2
+R30271:30271 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30283:30287 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30298:30298 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30272:30280 LF.Basics <> factorial def
+R30288:30291 Corelib.Init.Peano <> mult abbrev
+R30520:30523 Corelib.Init.Peano <> plus abbrev
+not 30508:30508 <> ::nat_scope:x_'+'_x
+R30644:30648 Corelib.Init.Peano <> minus abbrev
+not 30632:30632 <> ::nat_scope:x_'-'_x
+R30769:30772 Corelib.Init.Peano <> mult abbrev
+not 30757:30757 <> ::nat_scope:x_'*'_x
+R30895:30897 Corelib.Init.Datatypes <> nat ind
+R30880:30880 LF.Basics <> ::nat_scope:x_'+'_x not
+R30886:30889 LF.Basics <> ::nat_scope:x_'+'_x not
+R30882:30884 LF.Basics <> ::nat_scope:x_'+'_x not
+def 31798:31800 <> eqb
+R31809:31811 Corelib.Init.Datatypes <> nat ind
+binder 31803:31803 <> n:81
+binder 31805:31805 <> m:82
+R31816:31819 LF.Basics <> bool ind
+R31832:31832 LF.Basics <> n:81 var
+R31843:31843 Corelib.Init.Datatypes <> O constr
+R31854:31854 LF.Basics <> m:82 var
+R31872:31872 Corelib.Init.Datatypes <> O constr
+R31877:31880 LF.Basics <> true constr
+R31893:31893 Corelib.Init.Datatypes <> S constr
+R31901:31905 LF.Basics <> false constr
+R31924:31924 Corelib.Init.Datatypes <> S constr
+R31938:31938 LF.Basics <> m:82 var
+R31959:31959 Corelib.Init.Datatypes <> O constr
+R31964:31968 LF.Basics <> false constr
+R31984:31984 Corelib.Init.Datatypes <> S constr
+R31992:31994 LF.Basics <> eqb:83 def
+def 32176:32178 <> leb
+R32187:32189 Corelib.Init.Datatypes <> nat ind
+binder 32181:32181 <> n:87
+binder 32183:32183 <> m:88
+R32194:32197 LF.Basics <> bool ind
+R32210:32210 LF.Basics <> n:87 var
+R32221:32221 Corelib.Init.Datatypes <> O constr
+R32226:32229 LF.Basics <> true constr
+R32235:32235 Corelib.Init.Datatypes <> S constr
+R32255:32255 LF.Basics <> m:88 var
+R32270:32270 Corelib.Init.Datatypes <> O constr
+R32275:32279 LF.Basics <> false constr
+R32289:32289 Corelib.Init.Datatypes <> S constr
+R32297:32299 LF.Basics <> leb:89 def
+def 32333:32341 <> test_leb1
+R32366:32368 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32359:32361 LF.Basics <> leb def
+R32369:32372 LF.Basics <> true constr
+def 32416:32424 <> test_leb2
+R32449:32451 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32442:32444 LF.Basics <> leb def
+R32452:32455 LF.Basics <> true constr
+def 32499:32507 <> test_leb3
+R32532:32534 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32525:32527 LF.Basics <> leb def
+R32535:32539 LF.Basics <> false constr
+R32693:32695 LF.Basics <> eqb def
+not 32680:32680 <> ::nat_scope:x_'=?'_x
+R32752:32754 LF.Basics <> leb def
+not 32738:32738 <> ::nat_scope:x_'<=?'_x
+def 32797:32806 <> test_leb3'
+R32809:32809 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32817:32820 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32811:32815 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32821:32825 LF.Basics <> false constr
+def 33610:33612 <> ltb
+R33621:33623 Corelib.Init.Datatypes <> nat ind
+binder 33615:33615 <> n:92
+binder 33617:33617 <> m:93
+R33628:33631 LF.Basics <> bool ind
+R33638:33641 LF.Basics <> andb def
+R33645:33649 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R33644:33644 LF.Basics <> n:92 var
+R33650:33650 LF.Basics <> m:93 var
+R33654:33657 LF.Basics <> negb def
+R33660:33663 LF.Basics <> ::nat_scope:x_'=?'_x not
+R33659:33659 LF.Basics <> n:92 var
+R33664:33664 LF.Basics <> m:93 var
+R33694:33696 LF.Basics <> ltb def
+not 33681:33681 <> ::nat_scope:x_'<?'_x
+def 33739:33747 <> test_ltb1
+R33762:33762 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33770:33773 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33763:33765 LF.Basics <> ltb def
+R33774:33778 LF.Basics <> false constr
+def 33822:33830 <> test_ltb2
+R33845:33845 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33853:33856 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33846:33848 LF.Basics <> ltb def
+R33857:33860 LF.Basics <> true constr
+def 33904:33912 <> test_ltb3
+R33927:33927 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33935:33938 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33928:33930 LF.Basics <> ltb def
+R33939:33943 LF.Basics <> false constr
+prf 34963:34970 <> plus_O_n
+R34985:34987 Corelib.Init.Datatypes <> nat ind
+binder 34981:34981 <> n:94
+R34995:34997 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34991:34993 LF.Basics <> ::nat_scope:x_'+'_x not
+R34994:34994 LF.Basics <> n:94 var
+R34998:34998 LF.Basics <> n:94 var
+prf 35906:35914 <> plus_O_n'
+R35929:35931 Corelib.Init.Datatypes <> nat ind
+binder 35925:35925 <> n:95
+R35939:35941 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R35935:35937 LF.Basics <> ::nat_scope:x_'+'_x not
+R35938:35938 LF.Basics <> n:95 var
+R35942:35942 LF.Basics <> n:95 var
+prf 37658:37667 <> plus_O_n''
+R37682:37684 Corelib.Init.Datatypes <> nat ind
+binder 37678:37678 <> n:96
+R37692:37694 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37688:37690 LF.Basics <> ::nat_scope:x_'+'_x not
+R37691:37691 LF.Basics <> n:96 var
+R37695:37695 LF.Basics <> n:96 var
+prf 38130:38137 <> plus_1_l
+R38150:38152 Corelib.Init.Datatypes <> nat ind
+binder 38148:38148 <> n:97
+R38160:38162 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38156:38158 LF.Basics <> ::nat_scope:x_'+'_x not
+R38159:38159 LF.Basics <> n:97 var
+R38163:38163 Corelib.Init.Datatypes <> S constr
+R38165:38165 LF.Basics <> n:97 var
+prf 38215:38222 <> mult_0_l
+R38235:38237 Corelib.Init.Datatypes <> nat ind
+binder 38233:38233 <> n:98
+R38245:38247 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38241:38243 LF.Basics <> ::nat_scope:x_'*'_x not
+R38244:38244 LF.Basics <> n:98 var
+prf 38837:38851 <> plus_id_example
+R38866:38868 Corelib.Init.Datatypes <> nat ind
+binder 38862:38862 <> n:99
+binder 38864:38864 <> m:100
+R38878:38883 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R38874:38876 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38873:38873 LF.Basics <> n:99 var
+R38877:38877 LF.Basics <> m:100 var
+R38889:38891 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38885:38887 LF.Basics <> ::nat_scope:x_'+'_x not
+R38884:38884 LF.Basics <> n:99 var
+R38888:38888 LF.Basics <> n:99 var
+R38893:38895 LF.Basics <> ::nat_scope:x_'+'_x not
+R38892:38892 LF.Basics <> m:100 var
+R38896:38896 LF.Basics <> m:100 var
+prf 40903:40918 <> plus_id_exercise
+R40937:40939 Corelib.Init.Datatypes <> nat ind
+binder 40929:40929 <> n:101
+binder 40931:40931 <> m:102
+binder 40933:40933 <> o:103
+R40949:40952 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R40945:40947 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40944:40944 LF.Basics <> n:101 var
+R40948:40948 LF.Basics <> m:102 var
+R40958:40961 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R40954:40956 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40953:40953 LF.Basics <> m:102 var
+R40957:40957 LF.Basics <> o:103 var
+R40967:40969 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40963:40965 LF.Basics <> ::nat_scope:x_'+'_x not
+R40962:40962 LF.Basics <> n:101 var
+R40966:40966 LF.Basics <> m:102 var
+R40971:40973 LF.Basics <> ::nat_scope:x_'+'_x not
+R40970:40970 LF.Basics <> m:102 var
+R40974:40974 LF.Basics <> o:103 var
+R41992:41999 Corelib.Init.Peano <> mult_n_O thm
+R42046:42054 Corelib.Init.Peano <> mult_n_Sm thm
+prf 42489:42500 <> mult_n_0_m_0
+R42517:42519 Corelib.Init.Datatypes <> nat ind
+binder 42511:42511 <> p:104
+binder 42513:42513 <> q:105
+R42541:42543 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R42524:42524 LF.Basics <> ::nat_scope:x_'+'_x not
+R42530:42534 LF.Basics <> ::nat_scope:x_'+'_x not
+R42540:42540 LF.Basics <> ::nat_scope:x_'+'_x not
+R42526:42528 LF.Basics <> ::nat_scope:x_'*'_x not
+R42525:42525 LF.Basics <> p:104 var
+R42536:42538 LF.Basics <> ::nat_scope:x_'*'_x not
+R42535:42535 LF.Basics <> q:105 var
+R42581:42588 Corelib.Init.Peano <> mult_n_O thm
+R42581:42588 Corelib.Init.Peano <> mult_n_O thm
+R42581:42588 Corelib.Init.Peano <> mult_n_O thm
+R42604:42611 Corelib.Init.Peano <> mult_n_O thm
+R42604:42611 Corelib.Init.Peano <> mult_n_O thm
+R42604:42611 Corelib.Init.Peano <> mult_n_O thm
+prf 42795:42802 <> mult_n_1
+R42817:42819 Corelib.Init.Datatypes <> nat ind
+binder 42813:42813 <> p:106
+R42829:42831 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R42825:42827 LF.Basics <> ::nat_scope:x_'*'_x not
+R42824:42824 LF.Basics <> p:106 var
+R42832:42832 LF.Basics <> p:106 var
+R42870:42878 Corelib.Init.Peano <> mult_n_Sm thm
+R42870:42878 Corelib.Init.Peano <> mult_n_Sm thm
+R42870:42878 Corelib.Init.Peano <> mult_n_Sm thm
+R42892:42899 Corelib.Init.Peano <> mult_n_O thm
+R42892:42899 Corelib.Init.Peano <> mult_n_O thm
+R42892:42899 Corelib.Init.Peano <> mult_n_O thm
+prf 43436:43456 <> plus_1_neq_0_firsttry
+R43471:43473 Corelib.Init.Datatypes <> nat ind
+binder 43467:43467 <> n:107
+R43490:43492 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R43478:43478 LF.Basics <> ::nat_scope:x_'=?'_x not
+R43484:43488 LF.Basics <> ::nat_scope:x_'=?'_x not
+R43480:43482 LF.Basics <> ::nat_scope:x_'+'_x not
+R43479:43479 LF.Basics <> n:107 var
+R43493:43497 LF.Basics <> false constr
+prf 44447:44458 <> plus_1_neq_0
+R44473:44475 Corelib.Init.Datatypes <> nat ind
+binder 44469:44469 <> n:108
+R44492:44494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R44480:44480 LF.Basics <> ::nat_scope:x_'=?'_x not
+R44486:44490 LF.Basics <> ::nat_scope:x_'=?'_x not
+R44482:44484 LF.Basics <> ::nat_scope:x_'+'_x not
+R44481:44481 LF.Basics <> n:108 var
+R44495:44499 LF.Basics <> false constr
+prf 48012:48026 <> negb_involutive
+R48041:48044 LF.Basics <> bool ind
+binder 48037:48037 <> b:109
+R48062:48064 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R48049:48052 LF.Basics <> negb def
+R48055:48058 LF.Basics <> negb def
+R48060:48060 LF.Basics <> b:109 var
+R48065:48065 LF.Basics <> b:109 var
+prf 48799:48814 <> andb_commutative
+binder 48825:48825 <> b:110
+binder 48827:48827 <> c:111
+R48838:48840 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R48830:48833 LF.Basics <> andb def
+R48835:48835 LF.Basics <> b:110 var
+R48837:48837 LF.Basics <> c:111 var
+R48841:48844 LF.Basics <> andb def
+R48846:48846 LF.Basics <> c:111 var
+R48848:48848 LF.Basics <> b:110 var
+prf 49371:49387 <> andb_commutative'
+binder 49398:49398 <> b:112
+binder 49400:49400 <> c:113
+R49411:49413 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R49403:49406 LF.Basics <> andb def
+R49408:49408 LF.Basics <> b:112 var
+R49410:49410 LF.Basics <> c:113 var
+R49414:49417 LF.Basics <> andb def
+R49419:49419 LF.Basics <> c:113 var
+R49421:49421 LF.Basics <> b:112 var
+prf 49962:49975 <> andb3_exchange
+binder 49988:49988 <> b:114
+binder 49990:49990 <> c:115
+binder 49992:49992 <> d:116
+R50012:50014 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R49995:49998 LF.Basics <> andb def
+R50001:50004 LF.Basics <> andb def
+R50006:50006 LF.Basics <> b:114 var
+R50008:50008 LF.Basics <> c:115 var
+R50011:50011 LF.Basics <> d:116 var
+R50015:50018 LF.Basics <> andb def
+R50021:50024 LF.Basics <> andb def
+R50026:50026 LF.Basics <> b:114 var
+R50028:50028 LF.Basics <> d:116 var
+R50031:50031 LF.Basics <> c:115 var
+prf 50890:50904 <> andb_true_elim2
+R50921:50924 LF.Basics <> bool ind
+binder 50915:50915 <> b:117
+binder 50917:50917 <> c:118
+R50944:50947 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R50937:50939 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R50929:50932 LF.Basics <> andb def
+R50934:50934 LF.Basics <> b:117 var
+R50936:50936 LF.Basics <> c:118 var
+R50940:50943 LF.Basics <> true constr
+R50949:50951 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R50948:50948 LF.Basics <> c:118 var
+R50952:50955 LF.Basics <> true constr
+prf 51773:51785 <> plus_1_neq_0'
+R51800:51802 Corelib.Init.Datatypes <> nat ind
+binder 51796:51796 <> n:119
+R51819:51821 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R51807:51807 LF.Basics <> ::nat_scope:x_'=?'_x not
+R51813:51817 LF.Basics <> ::nat_scope:x_'=?'_x not
+R51809:51811 LF.Basics <> ::nat_scope:x_'+'_x not
+R51808:51808 LF.Basics <> n:119 var
+R51822:51826 LF.Basics <> false constr
+prf 52016:52033 <> andb_commutative''
+binder 52046:52046 <> b:120
+binder 52048:52048 <> c:121
+R52059:52061 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R52051:52054 LF.Basics <> andb def
+R52056:52056 LF.Basics <> b:120 var
+R52058:52058 LF.Basics <> c:121 var
+R52062:52065 LF.Basics <> andb def
+R52067:52067 LF.Basics <> c:121 var
+R52069:52069 LF.Basics <> b:120 var
+prf 52235:52250 <> zero_nbeq_plus_1
+R52265:52267 Corelib.Init.Datatypes <> nat ind
+binder 52261:52261 <> n:122
+R52284:52286 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R52273:52277 LF.Basics <> ::nat_scope:x_'=?'_x not
+R52283:52283 LF.Basics <> ::nat_scope:x_'=?'_x not
+R52279:52281 LF.Basics <> ::nat_scope:x_'+'_x not
+R52278:52278 LF.Basics <> n:122 var
+R52287:52291 LF.Basics <> false constr
+R52852:52855 Corelib.Init.Peano <> plus abbrev
+not 52840:52840 <> ::nat_scope:x_'+'_x
+R52976:52979 Corelib.Init.Peano <> mult abbrev
+not 52964:52964 <> ::nat_scope:x_'*'_x
+def 54815:54819 <> plus'
+R54826:54828 Corelib.Init.Datatypes <> nat ind
+binder 54822:54822 <> n:123
+R54836:54838 Corelib.Init.Datatypes <> nat ind
+binder 54832:54832 <> m:124
+R54843:54845 Corelib.Init.Datatypes <> nat ind
+R54858:54858 LF.Basics <> n:123 var
+R54869:54869 Corelib.Init.Datatypes <> O constr
+R54874:54874 LF.Basics <> m:124 var
+R54880:54880 Corelib.Init.Datatypes <> S constr
+R54888:54888 Corelib.Init.Datatypes <> S constr
+R54891:54895 LF.Basics <> plus':125 def
+R54900:54900 LF.Basics <> m:124 var
+prf 56569:56593 <> identity_fn_applied_twice
+R56615:56618 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R56611:56614 LF.Basics <> bool ind
+R56619:56622 LF.Basics <> bool ind
+binder 56607:56607 <> f:127
+R56628:56628 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R56655:56661 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R56641:56644 LF.Basics <> bool ind
+binder 56637:56637 <> x:128
+R56651:56653 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R56648:56648 LF.Basics <> f:127 var
+R56650:56650 LF.Basics <> x:128 var
+R56654:56654 LF.Basics <> x:128 var
+R56674:56677 LF.Basics <> bool ind
+binder 56670:56670 <> b:129
+R56688:56690 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R56681:56681 LF.Basics <> f:127 var
+R56684:56684 LF.Basics <> f:127 var
+R56686:56686 LF.Basics <> b:129 var
+R56691:56691 LF.Basics <> b:129 var
+prf 57033:57057 <> negation_fn_applied_twice
+R57079:57082 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R57075:57078 LF.Basics <> bool ind
+R57083:57086 LF.Basics <> bool ind
+binder 57071:57071 <> f:130
+R57094:57094 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R57126:57134 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R57107:57110 LF.Basics <> bool ind
+binder 57103:57103 <> x:131
+R57117:57119 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R57114:57114 LF.Basics <> f:130 var
+R57116:57116 LF.Basics <> x:131 var
+R57120:57123 LF.Basics <> negb def
+R57125:57125 LF.Basics <> x:131 var
+R57147:57150 LF.Basics <> bool ind
+binder 57143:57143 <> b:132
+R57161:57163 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R57154:57154 LF.Basics <> f:130 var
+R57157:57157 LF.Basics <> f:130 var
+R57159:57159 LF.Basics <> b:132 var
+R57164:57164 LF.Basics <> b:132 var
+R57213:57227 LF.Basics <> negb_involutive thm
+R57213:57227 LF.Basics <> negb_involutive thm
+def 57306:57347 <> manual_grade_for_negation_fn_applied_twice
+R57351:57356 Corelib.Init.Datatypes <> option ind
+R57362:57362 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R57359:57361 Corelib.Init.Datatypes <> nat ind
+R57363:57368 Stdlib.Strings.String <> string ind
+R57374:57377 Corelib.Init.Datatypes <> None constr
+prf 57745:57755 <> andb_eq_orb
+R57775:57778 LF.Basics <> bool ind
+binder 57769:57769 <> b:133
+binder 57771:57771 <> c:134
+R57784:57784 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R57803:57809 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R57793:57795 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R57785:57788 LF.Basics <> andb def
+R57790:57790 LF.Basics <> b:133 var
+R57792:57792 LF.Basics <> c:134 var
+R57796:57798 LF.Basics <> orb def
+R57800:57800 LF.Basics <> b:133 var
+R57802:57802 LF.Basics <> c:134 var
+R57811:57813 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R57810:57810 LF.Basics <> b:133 var
+R57814:57814 LF.Basics <> c:134 var
+mod 58454:58461 <> LateDays
+ind 58564:58569 LateDays letter
+constr 58585:58585 LateDays A
+constr 58589:58589 LateDays B
+constr 58593:58593 LateDays C
+constr 58597:58597 LateDays D
+constr 58601:58601 LateDays F
+scheme 58564:58569 LateDays letter_rect
+scheme 58564:58569 LateDays letter_ind
+scheme 58564:58569 LateDays letter_rec
+scheme 58564:58569 LateDays letter_sind
+ind 58706:58713 LateDays modifier
+constr 58729:58732 LateDays Plus
+constr 58736:58742 LateDays Natural
+constr 58746:58750 LateDays Minus
+scheme 58706:58713 LateDays modifier_rect
+scheme 58706:58713 LateDays modifier_ind
+scheme 58706:58713 LateDays modifier_rec
+scheme 58706:58713 LateDays modifier_sind
+ind 58962:58966 LateDays grade
+constr 58980:58984 LateDays Grade
+R58989:58994 LF.Basics LateDays letter ind
+binder 58987:58987 <> l:141
+R59000:59007 LF.Basics LateDays modifier ind
+binder 58998:58998 <> m:142
+scheme 58962:58966 LateDays grade_rect
+scheme 58962:58966 LateDays grade_ind
+scheme 58962:58966 LateDays grade_rec
+scheme 58962:58966 LateDays grade_sind
+ind 59618:59627 LateDays comparison
+constr 59643:59644 LateDays Eq
+constr 59672:59673 LateDays Lt
+constr 59705:59706 LateDays Gt
+scheme 59618:59627 LateDays comparison_rect
+scheme 59618:59627 LateDays comparison_ind
+scheme 59618:59627 LateDays comparison_rec
+scheme 59618:59627 LateDays comparison_sind
+def 60751:60767 LateDays letter_comparison
+R60778:60783 LF.Basics LateDays letter ind
+binder 60770:60771 <> l1:145
+binder 60773:60774 <> l2:146
+R60788:60797 LF.Basics LateDays comparison ind
+R60814:60815 LF.Basics <> l2:146 var
+R60810:60811 LF.Basics <> l1:145 var
+R60826:60826 LF.Basics LateDays A constr
+R60829:60829 LF.Basics LateDays A constr
+R60834:60835 LF.Basics LateDays Eq constr
+R60841:60841 LF.Basics LateDays A constr
+R60849:60850 LF.Basics LateDays Gt constr
+R60856:60856 LF.Basics LateDays B constr
+R60859:60859 LF.Basics LateDays A constr
+R60864:60865 LF.Basics LateDays Lt constr
+R60871:60871 LF.Basics LateDays B constr
+R60874:60874 LF.Basics LateDays B constr
+R60879:60880 LF.Basics LateDays Eq constr
+R60886:60886 LF.Basics LateDays B constr
+R60894:60895 LF.Basics LateDays Gt constr
+R60901:60901 LF.Basics LateDays C constr
+R60905:60905 LF.Basics LateDays A constr
+R60909:60909 LF.Basics LateDays B constr
+R60915:60916 LF.Basics LateDays Lt constr
+R60915:60916 LF.Basics LateDays Lt constr
+R60922:60922 LF.Basics LateDays C constr
+R60925:60925 LF.Basics LateDays C constr
+R60930:60931 LF.Basics LateDays Eq constr
+R60937:60937 LF.Basics LateDays C constr
+R60945:60946 LF.Basics LateDays Gt constr
+R60952:60952 LF.Basics LateDays D constr
+R60956:60956 LF.Basics LateDays A constr
+R60960:60960 LF.Basics LateDays B constr
+R60964:60964 LF.Basics LateDays C constr
+R60970:60971 LF.Basics LateDays Lt constr
+R60970:60971 LF.Basics LateDays Lt constr
+R60970:60971 LF.Basics LateDays Lt constr
+R60977:60977 LF.Basics LateDays D constr
+R60980:60980 LF.Basics LateDays D constr
+R60985:60986 LF.Basics LateDays Eq constr
+R60992:60992 LF.Basics LateDays D constr
+R61000:61001 LF.Basics LateDays Gt constr
+R61007:61007 LF.Basics LateDays F constr
+R61011:61011 LF.Basics LateDays A constr
+R61015:61015 LF.Basics LateDays B constr
+R61019:61019 LF.Basics LateDays C constr
+R61023:61023 LF.Basics LateDays D constr
+R61029:61030 LF.Basics LateDays Lt constr
+R61029:61030 LF.Basics LateDays Lt constr
+R61029:61030 LF.Basics LateDays Lt constr
+R61029:61030 LF.Basics LateDays Lt constr
+R61036:61036 LF.Basics LateDays F constr
+R61039:61039 LF.Basics LateDays F constr
+R61044:61045 LF.Basics LateDays Eq constr
+R61156:61172 LF.Basics LateDays letter_comparison def
+R61174:61174 LF.Basics LateDays B constr
+R61176:61176 LF.Basics LateDays A constr
+R61201:61217 LF.Basics LateDays letter_comparison def
+R61219:61219 LF.Basics LateDays D constr
+R61221:61221 LF.Basics LateDays D constr
+R61246:61262 LF.Basics LateDays letter_comparison def
+R61264:61264 LF.Basics LateDays B constr
+R61266:61266 LF.Basics LateDays F constr
+prf 61522:61541 LateDays letter_comparison_Eq
+binder 61554:61554 <> l:149
+R61578:61580 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R61557:61573 LF.Basics LateDays letter_comparison def
+R61575:61575 LF.Basics <> l:149 var
+R61577:61577 LF.Basics <> l:149 var
+R61581:61582 LF.Basics LateDays Eq constr
+def 61901:61919 LateDays modifier_comparison
+R61930:61937 LF.Basics LateDays modifier ind
+binder 61922:61923 <> m1:150
+binder 61925:61926 <> m2:151
+R61942:61951 LF.Basics LateDays comparison ind
+R61968:61969 LF.Basics <> m2:151 var
+R61964:61965 LF.Basics <> m1:150 var
+R61980:61983 LF.Basics LateDays Plus constr
+R61986:61989 LF.Basics LateDays Plus constr
+R61994:61995 LF.Basics LateDays Eq constr
+R62001:62004 LF.Basics LateDays Plus constr
+R62012:62013 LF.Basics LateDays Gt constr
+R62019:62025 LF.Basics LateDays Natural constr
+R62028:62031 LF.Basics LateDays Plus constr
+R62036:62037 LF.Basics LateDays Lt constr
+R62043:62049 LF.Basics LateDays Natural constr
+R62052:62058 LF.Basics LateDays Natural constr
+R62063:62064 LF.Basics LateDays Eq constr
+R62070:62076 LF.Basics LateDays Natural constr
+R62084:62085 LF.Basics LateDays Gt constr
+R62091:62095 LF.Basics LateDays Minus constr
+R62099:62102 LF.Basics LateDays Plus constr
+R62106:62112 LF.Basics LateDays Natural constr
+R62118:62119 LF.Basics LateDays Lt constr
+R62118:62119 LF.Basics LateDays Lt constr
+R62125:62129 LF.Basics LateDays Minus constr
+R62132:62136 LF.Basics LateDays Minus constr
+R62141:62142 LF.Basics LateDays Eq constr
+def 62787:62802 LateDays grade_comparison
+R62813:62817 LF.Basics LateDays grade ind
+binder 62805:62806 <> g1:154
+binder 62808:62809 <> g2:155
+R62822:62831 LF.Basics LateDays comparison ind
+R62849:62850 LF.Basics <> g2:155 var
+R62845:62846 LF.Basics <> g1:154 var
+R62861:62865 LF.Basics LateDays Grade constr
+R62874:62878 LF.Basics LateDays Grade constr
+R62896:62912 LF.Basics LateDays letter_comparison def
+R62959:62960 LF.Basics LateDays Lt constr
+R62965:62966 LF.Basics LateDays Lt constr
+R63001:63002 LF.Basics LateDays Gt constr
+R63007:63008 LF.Basics LateDays Gt constr
+R63043:63044 LF.Basics LateDays Eq constr
+R63050:63068 LF.Basics LateDays modifier_comparison def
+def 63255:63276 LateDays test_grade_comparison1
+R63282:63282 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63330:63333 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63283:63298 LF.Basics LateDays grade_comparison def
+R63301:63305 LF.Basics LateDays Grade constr
+R63307:63307 LF.Basics LateDays A constr
+R63309:63313 LF.Basics LateDays Minus constr
+R63317:63321 LF.Basics LateDays Grade constr
+R63323:63323 LF.Basics LateDays B constr
+R63325:63328 LF.Basics LateDays Plus constr
+R63334:63335 LF.Basics LateDays Gt constr
+def 63380:63401 LateDays test_grade_comparison2
+R63407:63407 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63455:63458 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63408:63423 LF.Basics LateDays grade_comparison def
+R63426:63430 LF.Basics LateDays Grade constr
+R63432:63432 LF.Basics LateDays A constr
+R63434:63438 LF.Basics LateDays Minus constr
+R63442:63446 LF.Basics LateDays Grade constr
+R63448:63448 LF.Basics LateDays A constr
+R63450:63453 LF.Basics LateDays Plus constr
+R63459:63460 LF.Basics LateDays Lt constr
+def 63506:63527 LateDays test_grade_comparison3
+R63533:63533 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63580:63583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63534:63549 LF.Basics LateDays grade_comparison def
+R63552:63556 LF.Basics LateDays Grade constr
+R63558:63558 LF.Basics LateDays F constr
+R63560:63563 LF.Basics LateDays Plus constr
+R63567:63571 LF.Basics LateDays Grade constr
+R63573:63573 LF.Basics LateDays F constr
+R63575:63578 LF.Basics LateDays Plus constr
+R63584:63585 LF.Basics LateDays Eq constr
+def 63630:63651 LateDays test_grade_comparison4
+R63657:63657 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63705:63708 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R63658:63673 LF.Basics LateDays grade_comparison def
+R63676:63680 LF.Basics LateDays Grade constr
+R63682:63682 LF.Basics LateDays B constr
+R63684:63688 LF.Basics LateDays Minus constr
+R63692:63696 LF.Basics LateDays Grade constr
+R63698:63698 LF.Basics LateDays C constr
+R63700:63703 LF.Basics LateDays Plus constr
+R63709:63710 LF.Basics LateDays Gt constr
+def 64063:64074 LateDays lower_letter
+R64081:64086 LF.Basics LateDays letter ind
+binder 64077:64077 <> l:158
+R64091:64096 LF.Basics LateDays letter ind
+R64109:64109 LF.Basics <> l:158 var
+R64120:64120 LF.Basics LateDays A constr
+R64125:64125 LF.Basics LateDays B constr
+R64131:64131 LF.Basics LateDays B constr
+R64136:64136 LF.Basics LateDays C constr
+R64142:64142 LF.Basics LateDays C constr
+R64147:64147 LF.Basics LateDays D constr
+R64153:64153 LF.Basics LateDays D constr
+R64158:64158 LF.Basics LateDays F constr
+R64164:64164 LF.Basics LateDays F constr
+R64169:64169 LF.Basics LateDays F constr
+prf 64531:64549 LateDays lower_letter_lowers
+R64564:64569 LF.Basics LateDays letter ind
+binder 64560:64560 <> l:160
+R64611:64613 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R64575:64591 LF.Basics LateDays letter_comparison def
+R64594:64605 LF.Basics LateDays lower_letter def
+R64607:64607 LF.Basics <> l:160 var
+R64610:64610 LF.Basics <> l:160 var
+R64614:64615 LF.Basics LateDays Lt constr
+prf 64907:64925 LateDays lower_letter_F_is_F
+R64944:64946 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R64930:64941 LF.Basics LateDays lower_letter def
+R64943:64943 LF.Basics LateDays F constr
+R64947:64947 LF.Basics LateDays F constr
+prf 65419:65437 LateDays lower_letter_lowers
+R65454:65459 LF.Basics LateDays letter ind
+binder 65450:65450 <> l:161
+R65493:65500 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R65488:65490 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R65467:65483 LF.Basics LateDays letter_comparison def
+R65485:65485 LF.Basics LateDays F constr
+R65487:65487 LF.Basics <> l:161 var
+R65491:65492 LF.Basics LateDays Lt constr
+R65537:65539 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R65501:65517 LF.Basics LateDays letter_comparison def
+R65520:65531 LF.Basics LateDays lower_letter def
+R65533:65533 LF.Basics <> l:161 var
+R65536:65536 LF.Basics <> l:161 var
+R65540:65541 LF.Basics LateDays Lt constr
+def 66578:66588 LateDays lower_grade
+R66595:66599 LF.Basics LateDays grade ind
+binder 66591:66591 <> g:162
+R66604:66608 LF.Basics LateDays grade ind
+R66619:66619 LF.Basics <> g:162 var
+R66628:66632 LF.Basics LateDays Grade constr
+R66670:66673 LF.Basics LateDays Plus constr
+R66678:66682 LF.Basics LateDays Grade constr
+R66686:66692 LF.Basics LateDays Natural constr
+R66710:66716 LF.Basics LateDays Natural constr
+R66721:66725 LF.Basics LateDays Grade constr
+R66729:66733 LF.Basics LateDays Minus constr
+R66751:66755 LF.Basics LateDays Minus constr
+R66799:66799 LF.Basics LateDays F constr
+R66804:66808 LF.Basics LateDays Grade constr
+R66810:66810 LF.Basics LateDays F constr
+R66812:66816 LF.Basics LateDays Minus constr
+R66850:66854 LF.Basics LateDays Grade constr
+R66857:66868 LF.Basics LateDays lower_letter def
+R66874:66877 LF.Basics LateDays Plus constr
+def 66940:66957 LateDays lower_grade_A_Plus
+R66989:66992 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67008:67008 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R66963:66973 LF.Basics LateDays lower_grade def
+R66976:66980 LF.Basics LateDays Grade constr
+R66982:66982 LF.Basics LateDays A constr
+R66984:66987 LF.Basics LateDays Plus constr
+R66993:66997 LF.Basics LateDays Grade constr
+R66999:66999 LF.Basics LateDays A constr
+R67001:67007 LF.Basics LateDays Natural constr
+def 67054:67074 LateDays lower_grade_A_Natural
+R67109:67112 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67126:67126 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67080:67090 LF.Basics LateDays lower_grade def
+R67093:67097 LF.Basics LateDays Grade constr
+R67099:67099 LF.Basics LateDays A constr
+R67101:67107 LF.Basics LateDays Natural constr
+R67113:67117 LF.Basics LateDays Grade constr
+R67119:67119 LF.Basics LateDays A constr
+R67121:67125 LF.Basics LateDays Minus constr
+def 67172:67190 LateDays lower_grade_A_Minus
+R67223:67226 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67239:67239 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67196:67206 LF.Basics LateDays lower_grade def
+R67209:67213 LF.Basics LateDays Grade constr
+R67215:67215 LF.Basics LateDays A constr
+R67217:67221 LF.Basics LateDays Minus constr
+R67227:67231 LF.Basics LateDays Grade constr
+R67233:67233 LF.Basics LateDays B constr
+R67235:67238 LF.Basics LateDays Plus constr
+def 67284:67301 LateDays lower_grade_B_Plus
+R67333:67336 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67352:67352 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67307:67317 LF.Basics LateDays lower_grade def
+R67320:67324 LF.Basics LateDays Grade constr
+R67326:67326 LF.Basics LateDays B constr
+R67328:67331 LF.Basics LateDays Plus constr
+R67337:67341 LF.Basics LateDays Grade constr
+R67343:67343 LF.Basics LateDays B constr
+R67345:67351 LF.Basics LateDays Natural constr
+def 67397:67417 LateDays lower_grade_F_Natural
+R67452:67455 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67469:67469 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67423:67433 LF.Basics LateDays lower_grade def
+R67436:67440 LF.Basics LateDays Grade constr
+R67442:67442 LF.Basics LateDays F constr
+R67444:67450 LF.Basics LateDays Natural constr
+R67456:67460 LF.Basics LateDays Grade constr
+R67462:67462 LF.Basics LateDays F constr
+R67464:67468 LF.Basics LateDays Minus constr
+def 67514:67530 LateDays lower_grade_twice
+R67577:67580 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67596:67596 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67536:67546 LF.Basics LateDays lower_grade def
+R67549:67559 LF.Basics LateDays lower_grade def
+R67562:67566 LF.Basics LateDays Grade constr
+R67568:67568 LF.Basics LateDays B constr
+R67570:67574 LF.Basics LateDays Minus constr
+R67581:67585 LF.Basics LateDays Grade constr
+R67587:67587 LF.Basics LateDays C constr
+R67589:67595 LF.Basics LateDays Natural constr
+def 67641:67658 LateDays lower_grade_thrice
+R67719:67722 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67736:67736 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67664:67674 LF.Basics LateDays lower_grade def
+R67677:67687 LF.Basics LateDays lower_grade def
+R67690:67700 LF.Basics LateDays lower_grade def
+R67703:67707 LF.Basics LateDays Grade constr
+R67709:67709 LF.Basics LateDays B constr
+R67711:67715 LF.Basics LateDays Minus constr
+R67723:67727 LF.Basics LateDays Grade constr
+R67729:67729 LF.Basics LateDays C constr
+R67731:67735 LF.Basics LateDays Minus constr
+prf 67949:67967 LateDays lower_grade_F_Minus
+R67998:68001 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R68015:68015 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R67971:67981 LF.Basics LateDays lower_grade def
+R67984:67988 LF.Basics LateDays Grade constr
+R67990:67990 LF.Basics LateDays F constr
+R67992:67996 LF.Basics LateDays Minus constr
+R68002:68006 LF.Basics LateDays Grade constr
+R68008:68008 LF.Basics LateDays F constr
+R68010:68014 LF.Basics LateDays Minus constr
+prf 69101:69118 LateDays lower_grade_lowers
+R69136:69140 LF.Basics LateDays grade ind
+binder 69132:69132 <> g:166
+R69187:69194 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R69182:69184 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R69148:69163 LF.Basics LateDays grade_comparison def
+R69166:69170 LF.Basics LateDays Grade constr
+R69172:69172 LF.Basics LateDays F constr
+R69174:69178 LF.Basics LateDays Minus constr
+R69181:69181 LF.Basics <> g:166 var
+R69185:69186 LF.Basics LateDays Lt constr
+R69229:69231 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R69195:69210 LF.Basics LateDays grade_comparison def
+R69213:69223 LF.Basics LateDays lower_grade def
+R69225:69225 LF.Basics <> g:166 var
+R69228:69228 LF.Basics <> g:166 var
+R69232:69233 LF.Basics LateDays Lt constr
+def 70373:70389 LateDays apply_late_policy
+R70404:70406 Corelib.Init.Datatypes <> nat ind
+binder 70392:70400 <> late_days:167
+R70414:70418 LF.Basics LateDays grade ind
+binder 70410:70410 <> g:168
+R70423:70427 LF.Basics LateDays grade ind
+R70446:70449 LF.Basics <> ::nat_scope:x_'<?'_x not
+R70437:70445 LF.Basics <> late_days:167 var
+R70478:70481 LF.Basics <> ::nat_scope:x_'<?'_x not
+R70469:70477 LF.Basics <> late_days:167 var
+R70523:70526 LF.Basics <> ::nat_scope:x_'<?'_x not
+R70514:70522 LF.Basics <> late_days:167 var
+R70570:70580 LF.Basics LateDays lower_grade def
+R70583:70593 LF.Basics LateDays lower_grade def
+R70596:70606 LF.Basics LateDays lower_grade def
+R70608:70608 LF.Basics <> g:168 var
+R70535:70545 LF.Basics LateDays lower_grade def
+R70548:70558 LF.Basics LateDays lower_grade def
+R70560:70560 LF.Basics <> g:168 var
+R70490:70500 LF.Basics LateDays lower_grade def
+R70502:70502 LF.Basics <> g:168 var
+R70457:70457 LF.Basics <> g:168 var
+prf 71073:71096 LateDays apply_late_policy_unfold
+R71122:71124 Corelib.Init.Datatypes <> nat ind
+binder 71110:71118 <> late_days:169
+R71132:71136 LF.Basics LateDays grade ind
+binder 71128:71128 <> g:170
+R71144:71144 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R71174:71186 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R71385:71385 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R71145:71161 LF.Basics LateDays apply_late_policy def
+R71163:71171 LF.Basics <> late_days:169 var
+R71173:71173 LF.Basics <> g:170 var
+R71199:71202 LF.Basics <> ::nat_scope:x_'<?'_x not
+R71190:71198 LF.Basics <> late_days:169 var
+R71237:71240 LF.Basics <> ::nat_scope:x_'<?'_x not
+R71228:71236 LF.Basics <> late_days:169 var
+R71287:71290 LF.Basics <> ::nat_scope:x_'<?'_x not
+R71278:71286 LF.Basics <> late_days:169 var
+R71344:71354 LF.Basics LateDays lower_grade def
+R71357:71367 LF.Basics LateDays lower_grade def
+R71370:71380 LF.Basics LateDays lower_grade def
+R71382:71382 LF.Basics <> g:170 var
+R71299:71309 LF.Basics LateDays lower_grade def
+R71312:71322 LF.Basics LateDays lower_grade def
+R71324:71324 LF.Basics <> g:170 var
+R71249:71259 LF.Basics LateDays lower_grade def
+R71261:71261 LF.Basics <> g:170 var
+R71210:71210 LF.Basics <> g:170 var
+prf 71817:71845 LateDays no_penalty_for_mostly_on_time
+R71871:71873 Corelib.Init.Datatypes <> nat ind
+binder 71859:71867 <> late_days:171
+R71881:71885 LF.Basics LateDays grade ind
+binder 71877:71877 <> g:172
+R71893:71893 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R71915:71923 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R71908:71910 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R71903:71906 LF.Basics <> ::nat_scope:x_'<?'_x not
+R71894:71902 LF.Basics <> late_days:171 var
+R71911:71914 LF.Basics <> true constr
+R71953:71955 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R71924:71940 LF.Basics LateDays apply_late_policy def
+R71942:71950 LF.Basics <> late_days:171 var
+R71952:71952 LF.Basics <> g:172 var
+R71956:71956 LF.Basics <> g:172 var
+R71985:72008 LF.Basics LateDays apply_late_policy_unfold thm
+R71985:72008 LF.Basics LateDays apply_late_policy_unfold thm
+R71985:72008 LF.Basics LateDays apply_late_policy_unfold thm
+prf 72251:72268 LateDays grade_lowered_once
+R72294:72296 Corelib.Init.Datatypes <> nat ind
+binder 72282:72290 <> late_days:173
+R72304:72308 LF.Basics LateDays grade ind
+binder 72300:72300 <> g:174
+R72316:72316 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R72339:72347 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R72331:72333 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R72326:72329 LF.Basics <> ::nat_scope:x_'<?'_x not
+R72317:72325 LF.Basics <> late_days:173 var
+R72334:72338 LF.Basics <> false constr
+R72348:72348 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R72371:72379 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R72364:72366 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R72358:72361 LF.Basics <> ::nat_scope:x_'<?'_x not
+R72349:72357 LF.Basics <> late_days:173 var
+R72367:72370 LF.Basics <> true constr
+R72380:72380 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R72410:72414 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R72428:72428 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R72381:72397 LF.Basics LateDays apply_late_policy def
+R72399:72407 LF.Basics <> late_days:173 var
+R72409:72409 LF.Basics <> g:174 var
+R72415:72425 LF.Basics LateDays lower_grade def
+R72427:72427 LF.Basics <> g:174 var
+R72456:72479 LF.Basics LateDays apply_late_policy_unfold thm
+R72456:72479 LF.Basics LateDays apply_late_policy_unfold thm
+R72456:72479 LF.Basics LateDays apply_late_policy_unfold thm
+R72539:72546 LF.Basics LateDays <> mod
+ind 74070:74072 <> bin
+constr 74088:74088 <> Z
+constr 74094:74095 <> B0
+constr 74111:74112 <> B1
+R74102:74104 LF.Basics <> bin:175 ind
+binder 74098:74098 <> n:177
+R74119:74121 LF.Basics <> bin:175 ind
+binder 74115:74115 <> n:178
+scheme 74070:74072 <> bin_rect
+scheme 74070:74072 <> bin_ind
+scheme 74070:74072 <> bin_rec
+scheme 74070:74072 <> bin_sind
+def 74306:74309 <> incr
+R74314:74316 LF.Basics <> bin ind
+binder 74312:74312 <> m:179
+R74321:74323 LF.Basics <> bin ind
+R74336:74336 LF.Basics <> m:179 var
+R74347:74347 LF.Basics <> Z constr
+R74352:74353 LF.Basics <> B1 constr
+R74355:74355 LF.Basics <> Z constr
+R74361:74362 LF.Basics <> B0 constr
+R74369:74370 LF.Basics <> B1 constr
+R74378:74379 LF.Basics <> B1 constr
+R74386:74387 LF.Basics <> B0 constr
+R74390:74393 LF.Basics <> incr:180 def
+def 74413:74418 <> helper
+R74424:74426 LF.Basics <> bin ind
+binder 74421:74421 <> m:182
+R74438:74440 Corelib.Init.Datatypes <> nat ind
+binder 74430:74434 <> count:183
+R74445:74447 Corelib.Init.Datatypes <> nat ind
+R74458:74458 LF.Basics <> m:182 var
+R74467:74467 LF.Basics <> Z constr
+R74472:74472 Corelib.Init.Datatypes <> O constr
+R74476:74477 LF.Basics <> B0 constr
+R74484:74489 LF.Basics <> helper:184 def
+R74494:74494 Corelib.Init.Datatypes <> S constr
+R74496:74500 LF.Basics <> count:183 var
+R74505:74506 LF.Basics <> B1 constr
+R74515:74518 Corelib.Init.Peano <> plus abbrev
+R74521:74523 LF.Basics <> exp def
+R74527:74531 LF.Basics <> count:183 var
+R74535:74540 LF.Basics <> helper:184 def
+R74545:74545 Corelib.Init.Datatypes <> S constr
+R74547:74551 LF.Basics <> count:183 var
+def 74573:74582 <> bin_to_nat
+R74587:74589 LF.Basics <> bin ind
+binder 74585:74585 <> m:186
+R74594:74596 Corelib.Init.Datatypes <> nat ind
+R74604:74609 LF.Basics <> helper def
+R74611:74611 LF.Basics <> m:186 var
+R74613:74613 Corelib.Init.Datatypes <> O constr
+def 74929:74942 <> test_bin_incr1
+R74946:74946 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R74958:74961 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R74947:74950 LF.Basics <> incr def
+R74953:74954 LF.Basics <> B1 constr
+R74956:74956 LF.Basics <> Z constr
+R74962:74963 LF.Basics <> B0 constr
+R74966:74967 LF.Basics <> B1 constr
+R74969:74969 LF.Basics <> Z constr
+def 75014:75027 <> test_bin_incr2
+R75031:75031 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75048:75051 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75032:75035 LF.Basics <> incr def
+R75038:75039 LF.Basics <> B0 constr
+R75042:75043 LF.Basics <> B1 constr
+R75045:75045 LF.Basics <> Z constr
+R75052:75053 LF.Basics <> B1 constr
+R75056:75057 LF.Basics <> B1 constr
+R75059:75059 LF.Basics <> Z constr
+def 75104:75117 <> test_bin_incr3
+R75121:75121 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75138:75141 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75122:75125 LF.Basics <> incr def
+R75128:75129 LF.Basics <> B1 constr
+R75132:75133 LF.Basics <> B1 constr
+R75135:75135 LF.Basics <> Z constr
+R75142:75143 LF.Basics <> B0 constr
+R75146:75147 LF.Basics <> B0 constr
+R75150:75151 LF.Basics <> B1 constr
+R75153:75153 LF.Basics <> Z constr
+def 75199:75212 <> test_bin_incr4
+R75238:75240 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75216:75225 LF.Basics <> bin_to_nat def
+R75228:75229 LF.Basics <> B0 constr
+R75232:75233 LF.Basics <> B1 constr
+R75235:75235 LF.Basics <> Z constr
+def 75285:75298 <> test_bin_incr5
+R75334:75336 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75310:75319 LF.Basics <> bin_to_nat def
+R75322:75325 LF.Basics <> incr def
+R75328:75329 LF.Basics <> B1 constr
+R75331:75331 LF.Basics <> Z constr
+R75338:75340 LF.Basics <> ::nat_scope:x_'+'_x not
+R75341:75350 LF.Basics <> bin_to_nat def
+R75353:75354 LF.Basics <> B1 constr
+R75356:75356 LF.Basics <> Z constr
+def 75402:75415 <> test_bin_incr6
+R75458:75460 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R75427:75436 LF.Basics <> bin_to_nat def
+R75439:75442 LF.Basics <> incr def
+R75445:75448 LF.Basics <> incr def
+R75451:75452 LF.Basics <> B1 constr
+R75454:75454 LF.Basics <> Z constr
+R75462:75464 LF.Basics <> ::nat_scope:x_'+'_x not
+R75465:75474 LF.Basics <> bin_to_nat def
+R75477:75478 LF.Basics <> B1 constr
+R75480:75480 LF.Basics <> Z constr

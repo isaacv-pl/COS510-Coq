@@ -1,0 +1,1218 @@
+DIGEST 891c684a8560f54f5bb95bec9e70c5b0
+FLF.Lists
+R69:77 LF.Induction <> <> lib
+mod 87:93 <> NatList
+ind 416:422 NatList natprod
+constr 438:441 NatList pair
+R452:454 Corelib.Init.Datatypes <> nat ind
+binder 444:445 <> n1:3
+binder 447:448 <> n2:4
+scheme 416:422 NatList natprod_rect
+scheme 416:422 NatList natprod_ind
+scheme 416:422 NatList natprod_rec
+scheme 416:422 NatList natprod_sind
+R648:654 LF.Lists NatList natprod ind
+R636:639 LF.Lists NatList pair constr
+def 789:791 NatList fst
+R798:804 LF.Lists NatList natprod ind
+binder 794:794 <> p:5
+R809:811 Corelib.Init.Datatypes <> nat ind
+R824:824 LF.Lists <> p:5 var
+R835:838 LF.Lists NatList pair constr
+def 868:870 NatList snd
+R877:883 LF.Lists NatList natprod ind
+binder 873:873 <> p:7
+R888:890 Corelib.Init.Datatypes <> nat ind
+R903:903 LF.Lists <> p:7 var
+R914:917 LF.Lists NatList pair constr
+R945:947 LF.Lists NatList fst def
+R950:953 LF.Lists NatList pair constr
+R1240:1243 LF.Lists NatList pair constr
+not 1224:1224 NatList :::'('_x_','_x_')'
+R1346:1348 LF.Lists NatList fst def
+R1350:1350 LF.Lists NatList :::'('_x_','_x_')' not
+R1352:1352 LF.Lists NatList :::'('_x_','_x_')' not
+R1354:1354 LF.Lists NatList :::'('_x_','_x_')' not
+def 1370:1373 NatList fst'
+R1380:1386 LF.Lists NatList natprod ind
+binder 1376:1376 <> p:9
+R1391:1393 Corelib.Init.Datatypes <> nat ind
+R1406:1406 LF.Lists <> p:9 var
+R1417:1417 LF.Lists NatList :::'('_x_','_x_')' not
+R1419:1419 LF.Lists NatList :::'('_x_','_x_')' not
+R1421:1421 LF.Lists NatList :::'('_x_','_x_')' not
+def 1447:1450 NatList snd'
+R1457:1463 LF.Lists NatList natprod ind
+binder 1453:1453 <> p:11
+R1468:1470 Corelib.Init.Datatypes <> nat ind
+R1483:1483 LF.Lists <> p:11 var
+R1494:1494 LF.Lists NatList :::'('_x_','_x_')' not
+R1496:1496 LF.Lists NatList :::'('_x_','_x_')' not
+R1498:1498 LF.Lists NatList :::'('_x_','_x_')' not
+def 1524:1532 NatList swap_pair
+R1539:1545 LF.Lists NatList natprod ind
+binder 1535:1535 <> p:13
+R1550:1556 LF.Lists NatList natprod ind
+R1569:1569 LF.Lists <> p:13 var
+R1580:1580 LF.Lists NatList :::'('_x_','_x_')' not
+R1582:1582 LF.Lists NatList :::'('_x_','_x_')' not
+R1584:1584 LF.Lists NatList :::'('_x_','_x_')' not
+R1589:1589 LF.Lists NatList :::'('_x_','_x_')' not
+R1591:1591 LF.Lists NatList :::'('_x_','_x_')' not
+R1593:1593 LF.Lists NatList :::'('_x_','_x_')' not
+prf 2943:2961 NatList surjective_pairing'
+R2979:2981 Corelib.Init.Datatypes <> nat ind
+binder 2973:2973 <> n:15
+binder 2975:2975 <> m:16
+R2992:2994 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R2987:2987 LF.Lists NatList :::'('_x_','_x_')' not
+R2989:2989 LF.Lists NatList :::'('_x_','_x_')' not
+R2991:2991 LF.Lists NatList :::'('_x_','_x_')' not
+R2988:2988 LF.Lists <> n:15 var
+R2990:2990 LF.Lists <> m:16 var
+R2995:2995 LF.Lists NatList :::'('_x_','_x_')' not
+R3005:3006 LF.Lists NatList :::'('_x_','_x_')' not
+R3016:3016 LF.Lists NatList :::'('_x_','_x_')' not
+R2996:2998 LF.Lists NatList fst def
+R3000:3000 LF.Lists NatList :::'('_x_','_x_')' not
+R3002:3002 LF.Lists NatList :::'('_x_','_x_')' not
+R3004:3004 LF.Lists NatList :::'('_x_','_x_')' not
+R3001:3001 LF.Lists <> n:15 var
+R3003:3003 LF.Lists <> m:16 var
+R3007:3009 LF.Lists NatList snd def
+R3011:3011 LF.Lists NatList :::'('_x_','_x_')' not
+R3013:3013 LF.Lists NatList :::'('_x_','_x_')' not
+R3015:3015 LF.Lists NatList :::'('_x_','_x_')' not
+R3012:3012 LF.Lists <> n:15 var
+R3014:3014 LF.Lists <> m:16 var
+prf 3149:3172 NatList surjective_pairing_stuck
+R3188:3194 LF.Lists NatList natprod ind
+binder 3184:3184 <> p:17
+R3201:3203 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3200:3200 LF.Lists <> p:17 var
+R3204:3204 LF.Lists NatList :::'('_x_','_x_')' not
+R3210:3211 LF.Lists NatList :::'('_x_','_x_')' not
+R3217:3217 LF.Lists NatList :::'('_x_','_x_')' not
+R3205:3207 LF.Lists NatList fst def
+R3209:3209 LF.Lists <> p:17 var
+R3212:3214 LF.Lists NatList snd def
+R3216:3216 LF.Lists <> p:17 var
+prf 3446:3463 NatList surjective_pairing
+R3479:3485 LF.Lists NatList natprod ind
+binder 3475:3475 <> p:18
+R3492:3494 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3491:3491 LF.Lists <> p:18 var
+R3495:3495 LF.Lists NatList :::'('_x_','_x_')' not
+R3501:3502 LF.Lists NatList :::'('_x_','_x_')' not
+R3508:3508 LF.Lists NatList :::'('_x_','_x_')' not
+R3496:3498 LF.Lists NatList fst def
+R3500:3500 LF.Lists <> p:18 var
+R3503:3505 LF.Lists NatList snd def
+R3507:3507 LF.Lists <> p:18 var
+prf 3870:3884 NatList snd_fst_is_swap
+R3900:3906 LF.Lists NatList natprod ind
+binder 3896:3896 <> p:19
+R3926:3928 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R3912:3912 LF.Lists NatList :::'('_x_','_x_')' not
+R3918:3919 LF.Lists NatList :::'('_x_','_x_')' not
+R3925:3925 LF.Lists NatList :::'('_x_','_x_')' not
+R3913:3915 LF.Lists NatList snd def
+R3917:3917 LF.Lists <> p:19 var
+R3920:3922 LF.Lists NatList fst def
+R3924:3924 LF.Lists <> p:19 var
+R3929:3937 LF.Lists NatList swap_pair def
+R3939:3939 LF.Lists <> p:19 var
+prf 4066:4080 NatList fst_swap_is_snd
+R4096:4102 LF.Lists NatList natprod ind
+binder 4092:4092 <> p:20
+R4125:4127 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R4108:4110 LF.Lists NatList fst def
+R4113:4121 LF.Lists NatList swap_pair def
+R4123:4123 LF.Lists <> p:20 var
+R4128:4130 LF.Lists NatList snd def
+R4132:4132 LF.Lists <> p:20 var
+ind 4484:4490 NatList natlist
+constr 4506:4508 NatList nil
+constr 4514:4517 NatList cons
+R4524:4526 Corelib.Init.Datatypes <> nat ind
+binder 4520:4520 <> n:23
+R4534:4540 LF.Lists <> natlist:21 ind
+binder 4530:4530 <> l:24
+scheme 4484:4490 NatList natlist_rect
+scheme 4484:4490 NatList natlist_ind
+scheme 4484:4490 NatList natlist_rec
+scheme 4484:4490 NatList natlist_sind
+def 4607:4612 NatList mylist
+R4617:4620 LF.Lists NatList cons constr
+R4625:4628 LF.Lists NatList cons constr
+R4633:4636 LF.Lists NatList cons constr
+R4640:4642 LF.Lists NatList nil constr
+R4904:4907 LF.Lists NatList cons constr
+not 4891:4891 NatList :::x_'::'_x
+R4989:4991 LF.Lists NatList nil constr
+not 4980:4980 NatList :::'['_']'
+R5024:5027 LF.Lists NatList cons constr
+R5035:5038 LF.Lists NatList cons constr
+R5042:5044 LF.Lists NatList nil constr
+not 5003:5003 NatList :::'['_x_';'_'..'_';'_x_']'
+def 5418:5424 NatList mylist1
+R5430:5434 LF.Lists NatList :::x_'::'_x not
+R5450:5450 LF.Lists NatList :::x_'::'_x not
+R5436:5440 LF.Lists NatList :::x_'::'_x not
+R5449:5449 LF.Lists NatList :::x_'::'_x not
+R5442:5445 LF.Lists NatList :::x_'::'_x not
+R5446:5448 LF.Lists NatList nil constr
+def 5464:5470 NatList mylist2
+R5476:5479 LF.Lists NatList :::x_'::'_x not
+R5481:5484 LF.Lists NatList :::x_'::'_x not
+R5486:5489 LF.Lists NatList :::x_'::'_x not
+R5490:5492 LF.Lists NatList nil constr
+def 5506:5512 NatList mylist3
+R5517:5517 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R5519:5519 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R5521:5521 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R5523:5523 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 7116:7121 NatList repeat
+R7134:7136 Corelib.Init.Datatypes <> nat ind
+binder 7124:7124 <> n:25
+binder 7126:7130 <> count:26
+R7141:7147 LF.Lists NatList natlist ind
+R7160:7164 LF.Lists <> count:26 var
+R7175:7175 Corelib.Init.Datatypes <> O constr
+R7180:7182 LF.Lists NatList nil constr
+R7188:7188 Corelib.Init.Datatypes <> S constr
+R7201:7205 LF.Lists NatList :::x_'::'_x not
+R7221:7221 LF.Lists NatList :::x_'::'_x not
+R7200:7200 LF.Lists <> n:25 var
+R7206:7211 LF.Lists <> repeat:27 def
+R7213:7213 LF.Lists <> n:25 var
+def 7394:7399 NatList length
+R7404:7410 LF.Lists NatList natlist ind
+binder 7402:7402 <> l:29
+R7415:7417 Corelib.Init.Datatypes <> nat ind
+R7430:7430 LF.Lists <> l:29 var
+R7441:7443 LF.Lists NatList nil constr
+R7448:7448 Corelib.Init.Datatypes <> O constr
+R7455:7458 LF.Lists NatList :::x_'::'_x not
+R7464:7464 Corelib.Init.Datatypes <> S constr
+R7467:7472 LF.Lists <> length:30 def
+def 7646:7648 NatList app
+R7659:7665 LF.Lists NatList natlist ind
+binder 7651:7652 <> l1:32
+binder 7654:7655 <> l2:33
+R7670:7676 LF.Lists NatList natlist ind
+R7689:7690 LF.Lists <> l1:32 var
+R7701:7703 LF.Lists NatList nil constr
+R7711:7712 LF.Lists <> l2:33 var
+R7719:7722 LF.Lists NatList :::x_'::'_x not
+R7729:7733 LF.Lists NatList :::x_'::'_x not
+R7742:7742 LF.Lists NatList :::x_'::'_x not
+R7734:7736 LF.Lists <> app:34 def
+R7740:7741 LF.Lists <> l2:33 var
+R7881:7883 LF.Lists NatList app def
+not 7868:7868 NatList :::x_'++'_x
+def 7956:7964 NatList test_app1
+R7995:7997 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R7986:7989 LF.Lists NatList :::x_'++'_x not
+R7979:7979 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7981:7981 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7983:7983 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7985:7985 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7990:7990 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7992:7992 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7994:7994 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R7998:7998 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8000:8000 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8002:8002 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8004:8004 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8006:8006 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8008:8008 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 8044:8052 NatList test_app2
+R8079:8081 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8070:8073 LF.Lists NatList :::x_'++'_x not
+R8067:8069 LF.Lists NatList nil constr
+R8074:8074 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8076:8076 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8078:8078 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8082:8082 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8084:8084 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8086:8086 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 8122:8130 NatList test_app3
+R8159:8161 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8152:8155 LF.Lists NatList :::x_'++'_x not
+R8145:8145 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8147:8147 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8149:8149 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8151:8151 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8156:8158 LF.Lists NatList nil constr
+R8162:8162 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8164:8164 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8166:8166 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8168:8168 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 8621:8622 NatList hd
+R8635:8637 Corelib.Init.Datatypes <> nat ind
+binder 8625:8631 <> default:36
+R8645:8651 LF.Lists NatList natlist ind
+binder 8641:8641 <> l:37
+R8656:8658 Corelib.Init.Datatypes <> nat ind
+R8671:8671 LF.Lists <> l:37 var
+R8682:8684 LF.Lists NatList nil constr
+R8689:8695 LF.Lists <> default:36 var
+R8702:8705 LF.Lists NatList :::x_'::'_x not
+def 8732:8733 NatList tl
+R8740:8746 LF.Lists NatList natlist ind
+binder 8736:8736 <> l:39
+R8751:8757 LF.Lists NatList natlist ind
+R8770:8770 LF.Lists <> l:39 var
+R8781:8783 LF.Lists NatList nil constr
+R8788:8790 LF.Lists NatList nil constr
+R8797:8800 LF.Lists NatList :::x_'::'_x not
+def 8824:8831 NatList test_hd1
+R8858:8860 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8846:8847 LF.Lists NatList hd def
+R8851:8851 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8853:8853 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8855:8855 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8857:8857 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 8897:8904 NatList test_hd2
+R8926:8928 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8919:8920 LF.Lists NatList hd def
+R8924:8925 LF.Lists NatList :::'['_']' not
+def 8965:8971 NatList test_tl
+R8997:8999 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R8987:8988 LF.Lists NatList tl def
+R8990:8990 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8992:8992 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8994:8994 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R8996:8996 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9000:9000 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9002:9002 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9004:9004 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 9375:9382 NatList nonzeros
+R9387:9393 LF.Lists NatList natlist ind
+binder 9385:9385 <> l:41
+R9398:9404 LF.Lists NatList natlist ind
+def 9482:9494 NatList test_nonzeros
+R9523:9525 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9499:9506 LF.Lists NatList nonzeros prfax
+R9508:9508 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9510:9510 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9512:9512 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9514:9514 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9516:9516 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9518:9518 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9520:9520 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9522:9522 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9526:9526 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9528:9528 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9530:9530 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9532:9532 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 9576:9585 NatList oddmembers
+R9590:9596 LF.Lists NatList natlist ind
+binder 9588:9588 <> l:43
+R9601:9607 LF.Lists NatList natlist ind
+def 9685:9699 NatList test_oddmembers
+R9730:9732 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R9704:9713 LF.Lists NatList oddmembers prfax
+R9715:9715 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9717:9717 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9719:9719 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9721:9721 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9723:9723 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9725:9725 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9727:9727 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9729:9729 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9733:9733 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9735:9735 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R9737:9737 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 10109:10123 NatList countoddmembers
+R10128:10134 LF.Lists NatList natlist ind
+binder 10126:10126 <> l:45
+R10139:10141 Corelib.Init.Datatypes <> nat ind
+def 10219:10239 NatList test_countoddmembers1
+R10273:10275 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10244:10258 LF.Lists NatList countoddmembers prfax
+R10260:10260 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10262:10262 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10264:10264 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10266:10266 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10268:10268 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10270:10270 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10272:10272 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 10319:10339 NatList test_countoddmembers2
+R10367:10369 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10344:10358 LF.Lists NatList countoddmembers prfax
+R10360:10360 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10362:10362 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10364:10364 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R10366:10366 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 10413:10433 NatList test_countoddmembers3
+R10457:10459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R10438:10452 LF.Lists NatList countoddmembers prfax
+R10454:10456 LF.Lists NatList nil constr
+def 11159:11167 NatList alternate
+R11178:11184 LF.Lists NatList natlist ind
+binder 11170:11171 <> l1:46
+binder 11173:11174 <> l2:47
+R11189:11195 LF.Lists NatList natlist ind
+def 11273:11287 NatList test_alternate1
+R11317:11319 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11292:11300 LF.Lists NatList alternate prfax
+R11302:11302 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11304:11304 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11306:11306 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11308:11308 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11310:11310 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11312:11312 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11314:11314 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11316:11316 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11320:11320 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11322:11322 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11324:11324 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11326:11326 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11328:11328 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11330:11330 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11332:11332 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 11375:11389 NatList test_alternate2
+R11415:11417 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11394:11402 LF.Lists NatList alternate prfax
+R11404:11404 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11406:11406 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11408:11408 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11410:11410 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11412:11412 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11414:11414 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11418:11418 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11420:11420 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11422:11422 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11424:11424 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11426:11426 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 11469:11483 NatList test_alternate3
+R11509:11511 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11488:11496 LF.Lists NatList alternate prfax
+R11498:11498 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11500:11500 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11502:11502 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11504:11504 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11506:11506 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11508:11508 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11512:11512 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11514:11514 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11516:11516 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11518:11518 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11520:11520 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 11563:11577 NatList test_alternate4
+R11602:11604 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R11582:11590 LF.Lists NatList alternate prfax
+R11592:11593 LF.Lists NatList :::'['_']' not
+R11595:11595 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11598:11598 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11601:11601 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11605:11605 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11608:11608 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R11611:11611 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 11953:11955 NatList bag
+R11960:11966 LF.Lists NatList natlist ind
+def 12163:12167 NatList count
+R12174:12176 Corelib.Init.Datatypes <> nat ind
+binder 12170:12170 <> v:49
+R12184:12186 LF.Lists NatList bag def
+binder 12180:12180 <> s:50
+R12191:12193 Corelib.Init.Datatypes <> nat ind
+def 12333:12343 NatList test_count1
+R12380:12382 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12359:12363 LF.Lists NatList count prfax
+R12367:12367 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12369:12369 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12371:12371 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12373:12373 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12375:12375 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12377:12377 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12379:12379 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 12424:12434 NatList test_count2
+R12471:12473 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R12450:12454 LF.Lists NatList count prfax
+R12458:12458 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12460:12460 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12462:12462 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12464:12464 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12466:12466 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12468:12468 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R12470:12470 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 12997:12999 NatList sum
+R13006:13009 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13003:13005 LF.Lists NatList bag def
+R13013:13016 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R13010:13012 LF.Lists NatList bag def
+R13017:13019 LF.Lists NatList bag def
+def 13097:13105 NatList test_sum1
+R13150:13152 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13121:13125 LF.Lists NatList count prfax
+R13130:13132 LF.Lists NatList sum prfax
+R13134:13134 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13136:13136 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13138:13138 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13140:13140 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13142:13142 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13144:13144 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13146:13146 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13148:13148 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 13198:13200 NatList add
+R13207:13209 Corelib.Init.Datatypes <> nat ind
+binder 13203:13203 <> v:52
+R13217:13219 LF.Lists NatList bag def
+binder 13213:13213 <> s:53
+R13224:13226 LF.Lists NatList bag def
+def 13304:13312 NatList test_add1
+R13353:13355 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13330:13334 LF.Lists NatList count prfax
+R13339:13341 LF.Lists NatList add prfax
+R13345:13345 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13347:13347 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13349:13349 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13351:13351 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 13397:13405 NatList test_add2
+R13446:13448 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13423:13427 LF.Lists NatList count prfax
+R13432:13434 LF.Lists NatList add prfax
+R13438:13438 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13440:13440 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13442:13442 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13444:13444 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 13492:13497 NatList member
+R13504:13506 Corelib.Init.Datatypes <> nat ind
+binder 13500:13500 <> v:54
+R13514:13516 LF.Lists NatList bag def
+binder 13510:13510 <> s:55
+R13521:13524 LF.Basics <> bool ind
+def 13602:13613 NatList test_member1
+R13644:13646 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13628:13633 LF.Lists NatList member prfax
+R13637:13637 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13639:13639 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13641:13641 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13643:13643 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13647:13650 LF.Basics <> true constr
+def 13692:13703 NatList test_member2
+R13734:13736 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R13718:13723 LF.Lists NatList member prfax
+R13727:13727 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13729:13729 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13731:13731 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13733:13733 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R13737:13741 LF.Basics <> false constr
+def 14210:14219 NatList remove_one
+R14226:14228 Corelib.Init.Datatypes <> nat ind
+binder 14222:14222 <> v:57
+R14236:14238 LF.Lists NatList bag def
+binder 14232:14232 <> s:58
+R14243:14245 LF.Lists NatList bag def
+def 14323:14338 NatList test_remove_one1
+R14377:14379 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14343:14347 LF.Lists NatList count prfax
+R14352:14361 LF.Lists NatList remove_one prfax
+R14365:14365 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14367:14367 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14369:14369 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14371:14371 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14373:14373 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14375:14375 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 14423:14438 NatList test_remove_one2
+R14475:14477 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14443:14447 LF.Lists NatList count prfax
+R14452:14461 LF.Lists NatList remove_one prfax
+R14465:14465 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14467:14467 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14469:14469 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14471:14471 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14473:14473 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 14521:14536 NatList test_remove_one3
+R14577:14579 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14541:14545 LF.Lists NatList count prfax
+R14550:14559 LF.Lists NatList remove_one prfax
+R14563:14563 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14565:14565 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14567:14567 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14569:14569 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14571:14571 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14573:14573 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14575:14575 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 14623:14638 NatList test_remove_one4
+R14681:14683 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14643:14647 LF.Lists NatList count prfax
+R14652:14661 LF.Lists NatList remove_one prfax
+R14665:14665 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14667:14667 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14669:14669 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14671:14671 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14673:14673 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14675:14675 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14677:14677 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14679:14679 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 14728:14737 NatList remove_all
+R14742:14744 Corelib.Init.Datatypes <> nat ind
+binder 14740:14740 <> v:60
+R14750:14752 LF.Lists NatList bag def
+binder 14748:14748 <> s:61
+R14757:14759 LF.Lists NatList bag def
+def 14837:14852 NatList test_remove_all1
+R14890:14892 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14856:14860 LF.Lists NatList count prfax
+R14865:14874 LF.Lists NatList remove_all prfax
+R14878:14878 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14880:14880 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14882:14882 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14884:14884 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14886:14886 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14888:14888 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 14934:14949 NatList test_remove_all2
+R14985:14987 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R14953:14957 LF.Lists NatList count prfax
+R14962:14971 LF.Lists NatList remove_all prfax
+R14975:14975 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14977:14977 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14979:14979 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14981:14981 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R14983:14983 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 15029:15044 NatList test_remove_all3
+R15084:15086 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15048:15052 LF.Lists NatList count prfax
+R15057:15066 LF.Lists NatList remove_all prfax
+R15070:15070 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15072:15072 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15074:15074 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15076:15076 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15078:15078 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15080:15080 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15082:15082 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 15128:15143 NatList test_remove_all4
+R15191:15193 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15147:15151 LF.Lists NatList count prfax
+R15156:15165 LF.Lists NatList remove_all prfax
+R15169:15169 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15171:15171 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15173:15173 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15175:15175 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15177:15177 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15179:15179 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15181:15181 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15183:15183 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15185:15185 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15187:15187 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15189:15189 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 15237:15244 NatList included
+R15252:15254 LF.Lists NatList bag def
+binder 15247:15248 <> s1:63
+R15263:15265 LF.Lists NatList bag def
+binder 15258:15259 <> s2:64
+R15270:15273 LF.Basics <> bool ind
+def 15351:15364 NatList test_included1
+R15404:15406 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15380:15387 LF.Lists NatList included prfax
+R15389:15389 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15391:15391 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15393:15393 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15395:15395 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15397:15397 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15399:15399 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15401:15401 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15403:15403 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15407:15410 LF.Basics <> true constr
+def 15451:15464 NatList test_included2
+R15506:15508 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R15480:15487 LF.Lists NatList included prfax
+R15489:15489 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15491:15491 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15493:15493 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15495:15495 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15497:15497 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15499:15499 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15501:15501 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15503:15503 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15505:15505 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R15509:15513 LF.Basics <> false constr
+def 15856:15885 NatList manual_grade_for_add_inc_count
+R15889:15894 Corelib.Init.Datatypes <> option ind
+R15900:15900 Corelib.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15897:15899 Corelib.Init.Datatypes <> nat ind
+R15901:15906 Stdlib.Strings.String <> string ind
+R15912:15915 Corelib.Init.Datatypes <> None constr
+prf 16265:16271 NatList nil_app
+R16286:16292 LF.Lists NatList natlist ind
+binder 16282:16282 <> l:66
+R16304:16306 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16299:16302 LF.Lists NatList :::x_'++'_x not
+R16297:16298 LF.Lists NatList :::'['_']' not
+R16303:16303 LF.Lists <> l:66 var
+R16307:16307 LF.Lists <> l:66 var
+prf 16709:16722 NatList tl_length_pred
+R16735:16741 LF.Lists NatList natlist ind
+binder 16733:16733 <> l:67
+R16761:16763 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R16746:16749 Corelib.Init.Peano <> pred abbrev
+R16752:16757 LF.Lists NatList length def
+R16759:16759 LF.Lists <> l:67 var
+R16764:16769 LF.Lists NatList length def
+R16772:16773 LF.Lists NatList tl def
+R16775:16775 LF.Lists <> l:67 var
+prf 19391:19399 NatList app_assoc
+R19421:19427 LF.Lists NatList natlist ind
+binder 19410:19411 <> l1:68
+binder 19413:19414 <> l2:69
+binder 19416:19417 <> l3:70
+R19448:19450 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R19432:19432 LF.Lists NatList :::x_'++'_x not
+R19441:19445 LF.Lists NatList :::x_'++'_x not
+R19435:19438 LF.Lists NatList :::x_'++'_x not
+R19433:19434 LF.Lists <> l1:68 var
+R19439:19440 LF.Lists <> l2:69 var
+R19446:19447 LF.Lists <> l3:70 var
+R19453:19457 LF.Lists NatList :::x_'++'_x not
+R19466:19466 LF.Lists NatList :::x_'++'_x not
+R19451:19452 LF.Lists <> l1:68 var
+R19460:19463 LF.Lists NatList :::x_'++'_x not
+R19458:19459 LF.Lists <> l2:69 var
+R19464:19465 LF.Lists <> l3:70 var
+prf 21665:21686 NatList repeat_double_firsttry
+R21702:21704 Corelib.Init.Datatypes <> nat ind
+binder 21697:21697 <> c:71
+binder 21699:21699 <> n:72
+R21733:21735 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R21719:21722 LF.Lists NatList :::x_'++'_x not
+R21709:21714 LF.Lists NatList repeat def
+R21716:21716 LF.Lists <> n:72 var
+R21718:21718 LF.Lists <> c:71 var
+R21723:21728 LF.Lists NatList repeat def
+R21730:21730 LF.Lists <> n:72 var
+R21732:21732 LF.Lists <> c:71 var
+R21736:21741 LF.Lists NatList repeat def
+R21743:21743 LF.Lists <> n:72 var
+R21747:21749 LF.Basics <> ::nat_scope:x_'+'_x not
+R21746:21746 LF.Lists <> c:71 var
+R21750:21750 LF.Lists <> c:71 var
+prf 22288:22298 NatList repeat_plus
+R22317:22319 Corelib.Init.Datatypes <> nat ind
+binder 22308:22309 <> c1:73
+binder 22311:22312 <> c2:74
+binder 22314:22314 <> n:75
+R22352:22354 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22337:22340 LF.Lists NatList :::x_'++'_x not
+R22326:22331 LF.Lists NatList repeat def
+R22333:22333 LF.Lists <> n:75 var
+R22335:22336 LF.Lists <> c1:73 var
+R22341:22346 LF.Lists NatList repeat def
+R22348:22348 LF.Lists <> n:75 var
+R22350:22351 LF.Lists <> c2:74 var
+R22355:22360 LF.Lists NatList repeat def
+R22362:22362 LF.Lists <> n:75 var
+R22367:22369 LF.Basics <> ::nat_scope:x_'+'_x not
+R22365:22366 LF.Lists <> c1:73 var
+R22370:22371 LF.Lists <> c2:74 var
+def 22773:22775 NatList rev
+R22780:22786 LF.Lists NatList natlist ind
+binder 22778:22778 <> l:76
+R22791:22797 LF.Lists NatList natlist ind
+R22810:22810 LF.Lists <> l:76 var
+R22821:22823 LF.Lists NatList nil constr
+R22831:22833 LF.Lists NatList nil constr
+R22840:22843 LF.Lists NatList :::x_'::'_x not
+R22854:22857 LF.Lists NatList :::x_'++'_x not
+R22849:22851 LF.Lists <> rev:77 def
+R22858:22858 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22860:22860 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 22878:22886 NatList test_rev1
+R22911:22913 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22900:22902 LF.Lists NatList rev def
+R22904:22904 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22906:22906 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22908:22908 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22910:22910 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22914:22914 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22916:22916 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22918:22918 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R22920:22920 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+def 22957:22965 NatList test_rev2
+R22986:22988 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R22979:22981 LF.Lists NatList rev def
+R22983:22985 LF.Lists NatList nil constr
+R22989:22991 LF.Lists NatList nil constr
+prf 23200:23218 NatList rev_length_firsttry
+R23233:23239 LF.Lists NatList natlist ind
+binder 23229:23229 <> l:79
+R23258:23260 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R23244:23249 LF.Lists NatList length def
+R23252:23254 LF.Lists NatList rev def
+R23256:23256 LF.Lists <> l:79 var
+R23261:23266 LF.Lists NatList length def
+R23268:23268 LF.Lists <> l:79 var
+prf 24033:24057 NatList app_rev_length_S_firsttry
+binder 24067:24067 <> l:80
+binder 24069:24069 <> n:81
+R24095:24097 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24074:24079 LF.Lists NatList length def
+R24087:24090 LF.Lists NatList :::x_'++'_x not
+R24082:24084 LF.Lists NatList rev def
+R24086:24086 LF.Lists <> l:80 var
+R24091:24091 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R24093:24093 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R24092:24092 LF.Lists <> n:81 var
+R24098:24098 Corelib.Init.Datatypes <> S constr
+R24101:24106 LF.Lists NatList length def
+R24109:24111 LF.Lists NatList rev def
+R24113:24113 LF.Lists <> l:80 var
+prf 24412:24423 NatList app_length_S
+binder 24433:24433 <> l:82
+binder 24435:24435 <> n:83
+R24457:24459 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R24440:24445 LF.Lists NatList length def
+R24449:24452 LF.Lists NatList :::x_'++'_x not
+R24448:24448 LF.Lists <> l:82 var
+R24453:24453 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R24455:24455 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R24454:24454 LF.Lists <> n:83 var
+R24460:24460 Corelib.Init.Datatypes <> S constr
+R24463:24468 LF.Lists NatList length def
+R24470:24470 LF.Lists <> l:82 var
+prf 24999:25008 NatList app_length
+R25027:25033 LF.Lists NatList natlist ind
+binder 25019:25020 <> l1:84
+binder 25022:25023 <> l2:85
+R25055:25057 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25038:25043 LF.Lists NatList length def
+R25048:25051 LF.Lists NatList :::x_'++'_x not
+R25046:25047 LF.Lists <> l1:84 var
+R25052:25053 LF.Lists <> l2:85 var
+R25058:25058 LF.Basics <> ::nat_scope:x_'+'_x not
+R25068:25072 LF.Basics <> ::nat_scope:x_'+'_x not
+R25082:25082 LF.Basics <> ::nat_scope:x_'+'_x not
+R25059:25064 LF.Lists NatList length def
+R25066:25067 LF.Lists <> l1:84 var
+R25073:25078 LF.Lists NatList length def
+R25080:25081 LF.Lists <> l2:85 var
+prf 25662:25671 NatList rev_length
+R25686:25692 LF.Lists NatList natlist ind
+binder 25682:25682 <> l:86
+R25711:25713 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R25697:25702 LF.Lists NatList length def
+R25705:25707 LF.Lists NatList rev def
+R25709:25709 LF.Lists <> l:86 var
+R25714:25719 LF.Lists NatList length def
+R25721:25721 LF.Lists <> l:86 var
+R25849:25858 LF.Lists NatList app_length thm
+R25849:25858 LF.Lists NatList app_length thm
+R25849:25858 LF.Lists NatList app_length thm
+R25897:25904 LF.Induction <> add_comm prfax
+R25897:25904 LF.Induction <> add_comm prfax
+R25897:25904 LF.Induction <> add_comm prfax
+R29072:29074 LF.Lists NatList rev def
+R29280:29282 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29276:29278 LF.Basics <> ::nat_scope:x_'+'_x not
+R29284:29286 LF.Basics <> ::nat_scope:x_'+'_x not
+R29471:29473 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29467:29469 LF.Basics <> ::nat_scope:x_'+'_x not
+R29475:29477 LF.Basics <> ::nat_scope:x_'+'_x not
+R29632:29634 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R29627:29629 LF.Basics <> ::nat_scope:x_'+'_x not
+R29637:29639 LF.Basics <> ::nat_scope:x_'+'_x not
+prf 30189:30197 NatList app_nil_r
+R30212:30218 LF.Lists NatList natlist ind
+binder 30208:30208 <> l:87
+R30230:30232 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30224:30227 LF.Lists NatList :::x_'++'_x not
+R30223:30223 LF.Lists <> l:87 var
+R30228:30229 LF.Lists NatList :::'['_']' not
+R30233:30233 LF.Lists <> l:87 var
+prf 30283:30295 NatList rev_app_distr
+R30313:30319 LF.Lists NatList natlist ind
+binder 30305:30306 <> l1:88
+binder 30308:30309 <> l2:89
+R30338:30340 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30324:30326 LF.Lists NatList rev def
+R30331:30334 LF.Lists NatList :::x_'++'_x not
+R30329:30330 LF.Lists <> l1:88 var
+R30335:30336 LF.Lists <> l2:89 var
+R30347:30350 LF.Lists NatList :::x_'++'_x not
+R30341:30343 LF.Lists NatList rev def
+R30345:30346 LF.Lists <> l2:89 var
+R30351:30353 LF.Lists NatList rev def
+R30355:30356 LF.Lists <> l1:88 var
+prf 30535:30548 NatList rev_involutive
+R30563:30569 LF.Lists NatList natlist ind
+binder 30559:30559 <> l:90
+R30585:30587 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30574:30576 LF.Lists NatList rev def
+R30579:30581 LF.Lists NatList rev def
+R30583:30583 LF.Lists <> l:90 var
+R30588:30588 LF.Lists <> l:90 var
+prf 30784:30793 NatList app_assoc4
+R30818:30824 LF.Lists NatList natlist ind
+binder 30804:30805 <> l1:91
+binder 30807:30808 <> l2:92
+binder 30810:30811 <> l3:93
+binder 30813:30814 <> l4:94
+R30853:30855 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R30831:30835 LF.Lists NatList :::x_'++'_x not
+R30852:30852 LF.Lists NatList :::x_'++'_x not
+R30829:30830 LF.Lists <> l1:91 var
+R30838:30842 LF.Lists NatList :::x_'++'_x not
+R30851:30851 LF.Lists NatList :::x_'++'_x not
+R30836:30837 LF.Lists <> l2:92 var
+R30845:30848 LF.Lists NatList :::x_'++'_x not
+R30843:30844 LF.Lists <> l3:93 var
+R30849:30850 LF.Lists <> l4:94 var
+R30856:30856 LF.Lists NatList :::x_'++'_x not
+R30873:30877 LF.Lists NatList :::x_'++'_x not
+R30857:30857 LF.Lists NatList :::x_'++'_x not
+R30866:30870 LF.Lists NatList :::x_'++'_x not
+R30860:30863 LF.Lists NatList :::x_'++'_x not
+R30858:30859 LF.Lists <> l1:91 var
+R30864:30865 LF.Lists <> l2:92 var
+R30871:30872 LF.Lists <> l3:93 var
+R30878:30879 LF.Lists <> l4:94 var
+prf 30988:30999 NatList nonzeros_app
+R31018:31024 LF.Lists NatList natlist ind
+binder 31010:31011 <> l1:95
+binder 31013:31014 <> l2:96
+R31048:31050 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31029:31036 LF.Lists NatList nonzeros prfax
+R31041:31044 LF.Lists NatList :::x_'++'_x not
+R31039:31040 LF.Lists <> l1:95 var
+R31045:31046 LF.Lists <> l2:96 var
+R31051:31051 LF.Lists NatList :::x_'++'_x not
+R31063:31068 LF.Lists NatList :::x_'++'_x not
+R31080:31080 LF.Lists NatList :::x_'++'_x not
+R31052:31059 LF.Lists NatList nonzeros prfax
+R31061:31062 LF.Lists <> l1:95 var
+R31069:31076 LF.Lists NatList nonzeros prfax
+R31078:31079 LF.Lists <> l2:96 var
+def 31348:31354 NatList eqblist
+R31365:31371 LF.Lists NatList natlist ind
+binder 31357:31358 <> l1:97
+binder 31360:31361 <> l2:98
+R31376:31379 LF.Basics <> bool ind
+def 31457:31469 NatList test_eqblist1
+R31491:31493 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31476:31482 LF.Lists NatList eqblist prfax
+R31484:31486 LF.Lists NatList nil constr
+R31488:31490 LF.Lists NatList nil constr
+R31494:31497 LF.Basics <> true constr
+def 31540:31552 NatList test_eqblist2
+R31581:31583 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31558:31564 LF.Lists NatList eqblist prfax
+R31566:31566 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31568:31568 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31570:31570 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31572:31572 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31574:31574 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31576:31576 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31578:31578 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31580:31580 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31584:31587 LF.Basics <> true constr
+def 31628:31640 NatList test_eqblist3
+R31669:31671 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31646:31652 LF.Lists NatList eqblist prfax
+R31654:31654 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31656:31656 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31658:31658 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31660:31660 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31662:31662 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31664:31664 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31666:31666 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31668:31668 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R31672:31676 LF.Basics <> false constr
+prf 31718:31729 NatList eqblist_refl
+R31742:31748 LF.Lists NatList natlist ind
+binder 31740:31740 <> l:100
+R31757:31759 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R31753:31756 LF.Basics <> true constr
+R31760:31766 LF.Lists NatList eqblist prfax
+R31768:31768 LF.Lists <> l:100 var
+R31770:31770 LF.Lists <> l:100 var
+prf 32097:32116 NatList count_member_nonzero
+R32132:32134 LF.Lists NatList bag def
+binder 32128:32128 <> s:101
+R32164:32166 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32141:32146 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32163:32163 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32147:32151 LF.Lists NatList count prfax
+R32157:32160 LF.Lists NatList :::x_'::'_x not
+R32161:32161 LF.Lists <> s:101 var
+R32167:32170 LF.Basics <> true constr
+prf 32354:32361 NatList leb_n_Sn
+binder 32372:32372 <> n:102
+R32388:32390 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32378:32383 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32387:32387 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32377:32377 LF.Lists <> n:102 var
+R32384:32384 Corelib.Init.Datatypes <> S constr
+R32386:32386 LF.Lists <> n:102 var
+R32391:32394 LF.Basics <> true constr
+prf 32731:32760 NatList remove_does_not_increase_count
+R32775:32777 LF.Lists NatList bag def
+binder 32771:32771 <> s:103
+R32825:32827 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R32783:32783 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32808:32814 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32824:32824 LF.Basics <> ::nat_scope:x_'<=?'_x not
+R32784:32788 LF.Lists NatList count prfax
+R32793:32802 LF.Lists NatList remove_one prfax
+R32806:32806 LF.Lists <> s:103 var
+R32815:32819 LF.Lists NatList count prfax
+R32823:32823 LF.Lists <> s:103 var
+R32828:32831 LF.Basics <> true constr
+prf 33659:33678 NatList involution_injective
+R33697:33700 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33694:33696 Corelib.Init.Datatypes <> nat ind
+R33701:33703 Corelib.Init.Datatypes <> nat ind
+binder 33690:33690 <> f:104
+R33711:33711 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33739:33744 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33787:33787 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33723:33725 Corelib.Init.Datatypes <> nat ind
+binder 33719:33719 <> n:105
+R33729:33731 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33728:33728 LF.Lists <> n:105 var
+R33732:33732 LF.Lists <> f:104 var
+R33735:33735 LF.Lists <> f:104 var
+R33737:33737 LF.Lists <> n:105 var
+R33760:33762 Corelib.Init.Datatypes <> nat ind
+binder 33752:33753 <> n1:106
+binder 33755:33756 <> n2:107
+R33776:33779 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R33769:33771 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33765:33765 LF.Lists <> f:104 var
+R33767:33768 LF.Lists <> n1:106 var
+R33772:33772 LF.Lists <> f:104 var
+R33774:33775 LF.Lists <> n2:107 var
+R33782:33784 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R33780:33781 LF.Lists <> n1:106 var
+R33785:33786 LF.Lists <> n2:107 var
+prf 34177:34189 NatList rev_injective
+R34209:34215 LF.Lists NatList natlist ind
+binder 34201:34202 <> l1:108
+binder 34204:34205 <> l2:109
+R34236:34239 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R34227:34229 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34221:34223 LF.Lists NatList rev def
+R34225:34226 LF.Lists <> l1:108 var
+R34230:34232 LF.Lists NatList rev def
+R34234:34235 LF.Lists <> l2:109 var
+R34242:34244 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R34240:34241 LF.Lists <> l1:108 var
+R34245:34246 LF.Lists <> l2:109 var
+def 34621:34627 NatList nth_bad
+R34632:34638 LF.Lists NatList natlist ind
+binder 34630:34630 <> l:110
+R34644:34646 Corelib.Init.Datatypes <> nat ind
+binder 34642:34642 <> n:111
+R34651:34653 Corelib.Init.Datatypes <> nat ind
+R34666:34666 LF.Lists <> l:110 var
+R34677:34679 LF.Lists NatList nil constr
+R34692:34695 LF.Lists NatList :::x_'::'_x not
+R34708:34708 LF.Lists <> n:111 var
+R34756:34756 Corelib.Init.Datatypes <> S constr
+R34764:34770 LF.Lists <> nth_bad:112 def
+ind 35130:35138 NatList natoption
+constr 35154:35157 NatList Some
+constr 35173:35176 NatList None
+R35164:35166 Corelib.Init.Datatypes <> nat ind
+binder 35160:35160 <> n:117
+scheme 35130:35138 NatList natoption_rect
+scheme 35130:35138 NatList natoption_ind
+scheme 35130:35138 NatList natoption_rec
+scheme 35130:35138 NatList natoption_sind
+def 35786:35794 NatList nth_error
+R35799:35805 LF.Lists NatList natlist ind
+binder 35797:35797 <> l:118
+R35811:35813 Corelib.Init.Datatypes <> nat ind
+binder 35809:35809 <> n:119
+R35818:35826 LF.Lists NatList natoption ind
+R35839:35839 LF.Lists <> l:118 var
+R35850:35852 LF.Lists NatList nil constr
+R35857:35860 LF.Lists NatList None constr
+R35867:35870 LF.Lists NatList :::x_'::'_x not
+R35883:35883 LF.Lists <> n:119 var
+R35907:35907 Corelib.Init.Datatypes <> O constr
+R35912:35915 LF.Lists NatList Some constr
+R35936:35936 Corelib.Init.Datatypes <> S constr
+R35944:35952 LF.Lists <> nth_error:120 def
+def 35995:36009 NatList test_nth_error1
+R36034:36036 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36013:36021 LF.Lists NatList nth_error def
+R36023:36023 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36025:36025 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36027:36027 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36029:36029 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36031:36031 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36037:36040 LF.Lists NatList Some constr
+def 36078:36092 NatList test_nth_error2
+R36117:36119 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36096:36104 LF.Lists NatList nth_error def
+R36106:36106 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36108:36108 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36110:36110 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36112:36112 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36114:36114 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36120:36123 LF.Lists NatList Some constr
+def 36161:36175 NatList test_nth_error3
+R36200:36202 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36179:36187 LF.Lists NatList nth_error def
+R36189:36189 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36191:36191 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36193:36193 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36195:36195 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36197:36197 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R36203:36206 LF.Lists NatList None constr
+def 36504:36514 NatList option_elim
+R36521:36523 Corelib.Init.Datatypes <> nat ind
+binder 36517:36517 <> d:123
+R36531:36539 LF.Lists NatList natoption ind
+binder 36527:36527 <> o:124
+R36544:36546 Corelib.Init.Datatypes <> nat ind
+R36559:36559 LF.Lists <> o:124 var
+R36570:36573 LF.Lists NatList Some constr
+R36588:36591 LF.Lists NatList None constr
+R36596:36596 LF.Lists <> d:123 var
+def 36798:36805 NatList hd_error
+R36812:36818 LF.Lists NatList natlist ind
+binder 36808:36808 <> l:126
+R36823:36831 LF.Lists NatList natoption ind
+def 36909:36922 NatList test_hd_error1
+R36937:36939 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R36926:36933 LF.Lists NatList hd_error prfax
+R36935:36936 LF.Lists NatList :::'['_']' not
+R36940:36943 LF.Lists NatList None constr
+def 36985:36998 NatList test_hd_error2
+R37014:37016 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37002:37009 LF.Lists NatList hd_error prfax
+R37011:37011 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R37013:37013 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R37017:37020 LF.Lists NatList Some constr
+def 37064:37077 NatList test_hd_error3
+R37095:37097 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37081:37088 LF.Lists NatList hd_error prfax
+R37090:37090 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R37092:37092 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R37094:37094 LF.Lists NatList :::'['_x_';'_'..'_';'_x_']' not
+R37098:37101 LF.Lists NatList Some constr
+prf 37287:37300 NatList option_elim_hd
+R37314:37320 LF.Lists NatList natlist ind
+binder 37312:37312 <> l:127
+R37332:37334 Corelib.Init.Datatypes <> nat ind
+binder 37324:37330 <> default:128
+R37352:37354 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R37340:37341 LF.Lists NatList hd def
+R37343:37349 LF.Lists <> default:128 var
+R37351:37351 LF.Lists <> l:127 var
+R37355:37365 LF.Lists NatList option_elim def
+R37367:37373 LF.Lists <> default:128 var
+R37376:37383 LF.Lists NatList hd_error prfax
+R37385:37385 LF.Lists <> l:127 var
+R37442:37448 LF.Lists NatList <> mod
+ind 37880:37881 <> id
+constr 37897:37898 <> Id
+R37905:37907 Corelib.Init.Datatypes <> nat ind
+binder 37901:37901 <> n:131
+scheme 37880:37881 <> id_rect
+scheme 37880:37881 <> id_ind
+scheme 37880:37881 <> id_rec
+scheme 37880:37881 <> id_sind
+def 38205:38210 <> eqb_id
+R38221:38222 LF.Lists <> id ind
+binder 38213:38214 <> x1:132
+binder 38216:38217 <> x2:133
+R38240:38241 LF.Lists <> x2:133 var
+R38236:38237 LF.Lists <> x1:132 var
+R38252:38253 LF.Lists <> Id constr
+R38259:38260 LF.Lists <> Id constr
+R38270:38273 LF.Basics <> ::nat_scope:x_'=?'_x not
+prf 38346:38356 <> eqb_id_refl
+binder 38367:38367 <> x:136
+R38380:38382 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R38370:38375 LF.Lists <> eqb_id def
+R38377:38377 LF.Lists <> x:136 var
+R38379:38379 LF.Lists <> x:136 var
+R38383:38386 LF.Basics <> true constr
+mod 38493:38502 <> PartialMap
+R38512:38518 LF.Lists NatList <> mod
+ind 38588:38598 PartialMap partial_map
+constr 38614:38618 PartialMap empty
+constr 38624:38629 PartialMap record
+R38636:38637 LF.Lists <> id ind
+binder 38632:38632 <> i:139
+R38645:38647 Corelib.Init.Datatypes <> nat ind
+binder 38641:38641 <> v:140
+R38655:38665 LF.Lists <> partial_map:137 ind
+binder 38651:38651 <> m:141
+scheme 38588:38598 PartialMap partial_map_rect
+scheme 38588:38598 PartialMap partial_map_ind
+scheme 38588:38598 PartialMap partial_map_rec
+scheme 38588:38598 PartialMap partial_map_sind
+def 39206:39211 PartialMap update
+R39218:39228 LF.Lists PartialMap partial_map ind
+binder 39214:39214 <> d:142
+R39254:39255 LF.Lists <> id ind
+binder 39250:39250 <> x:143
+R39267:39269 Corelib.Init.Datatypes <> nat ind
+binder 39259:39263 <> value:144
+R39292:39302 LF.Lists PartialMap partial_map ind
+R39309:39314 LF.Lists PartialMap record constr
+R39316:39316 LF.Lists <> x:143 var
+R39318:39322 LF.Lists <> value:144 var
+R39324:39324 LF.Lists <> d:142 var
+def 39620:39623 PartialMap find
+R39630:39631 LF.Lists <> id ind
+binder 39626:39626 <> x:145
+R39639:39649 LF.Lists PartialMap partial_map ind
+binder 39635:39635 <> d:146
+R39654:39662 LF.Lists NatList natoption ind
+R39675:39675 LF.Lists <> d:146 var
+R39686:39690 LF.Lists PartialMap empty constr
+R39703:39706 LF.Lists NatList None constr
+R39712:39717 LF.Lists PartialMap record constr
+R39732:39737 LF.Lists <> eqb_id def
+R39739:39739 LF.Lists <> x:145 var
+R39802:39805 LF.Lists <> find:147 def
+R39807:39807 LF.Lists <> x:145 var
+R39769:39772 LF.Lists NatList Some constr
+prf 39879:39887 PartialMap update_eq
+R39905:39915 LF.Lists PartialMap partial_map ind
+binder 39901:39901 <> d:149
+R39923:39924 LF.Lists <> id ind
+binder 39919:39919 <> x:150
+R39931:39933 Corelib.Init.Datatypes <> nat ind
+binder 39928:39928 <> v:151
+R39962:39964 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R39941:39944 LF.Lists PartialMap find def
+R39946:39946 LF.Lists <> x:150 var
+R39949:39954 LF.Lists PartialMap update def
+R39956:39956 LF.Lists <> d:149 var
+R39958:39958 LF.Lists <> x:150 var
+R39960:39960 LF.Lists <> v:151 var
+R39965:39968 LF.Lists NatList Some constr
+R39970:39970 LF.Lists <> v:151 var
+prf 40081:40090 PartialMap update_neq
+R40108:40118 LF.Lists PartialMap partial_map ind
+binder 40104:40104 <> d:152
+R40128:40129 LF.Lists <> id ind
+binder 40122:40122 <> x:153
+binder 40124:40124 <> y:154
+R40136:40138 Corelib.Init.Datatypes <> nat ind
+binder 40133:40133 <> o:155
+R40164:40167 Corelib.Init.Logic <> ::type_scope:x_'->'_x not
+R40156:40158 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40146:40151 LF.Lists <> eqb_id def
+R40153:40153 LF.Lists <> x:153 var
+R40155:40155 LF.Lists <> y:154 var
+R40159:40163 LF.Basics <> false constr
+R40189:40191 Corelib.Init.Logic <> ::type_scope:x_'='_x not
+R40168:40171 LF.Lists PartialMap find def
+R40173:40173 LF.Lists <> x:153 var
+R40176:40181 LF.Lists PartialMap update def
+R40183:40183 LF.Lists <> d:152 var
+R40185:40185 LF.Lists <> y:154 var
+R40187:40187 LF.Lists <> o:155 var
+R40192:40195 LF.Lists PartialMap find def
+R40197:40197 LF.Lists <> x:153 var
+R40199:40199 LF.Lists <> d:152 var
+R40253:40262 LF.Lists PartialMap <> mod
